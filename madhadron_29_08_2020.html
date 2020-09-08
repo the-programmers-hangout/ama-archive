@@ -1,0 +1,2105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>The Programmer&#39;s Hangout - madhadron Q&A - Aug 29th, 2020</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <style>
+        /* General */
+
+@font-face {
+    font-family: Whitney;
+    src: url(https://discordapp.com/assets/6c6374bad0b0b6d204d8d6dc4a18d820.woff);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: Whitney;
+    src: url(https://discordapp.com/assets/e8acd7d9bf6207f99350ca9f9e23b168.woff);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Whitney;
+    src: url(https://discordapp.com/assets/3bdef1251a424500c1b3a78dea9b7e57.woff);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Whitney;
+    src: url(https://discordapp.com/assets/be0060dafb7a0e31d2a1ca17c0708636.woff);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: Whitney;
+    src: url(https://discordapp.com/assets/8e12fb4f14d9c4592eb8ec9f22337b04.woff);
+    font-weight: 700;
+}
+
+body {
+    font-family: "Whitney", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    object-fit: contain;
+}
+
+.markdown {
+    white-space: pre-wrap;
+    line-height: 1.3;
+    overflow-wrap: break-word;
+}
+
+.spoiler {
+    border-radius: 3px;
+}
+
+.quote {
+    margin: 0.5em 0;
+    padding-left: 0.6em;
+    border-left: 4px solid;
+    border-radius: 3px;
+}
+
+.pre {
+    font-family: "Consolas", "Courier New", Courier, monospace;
+}
+
+.pre--multiline {
+    margin-top: 0.25em;
+    padding: 0.5em;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+.pre--inline {
+    padding: 2px;
+    border-radius: 3px;
+    font-size: 0.85em;
+}
+
+.mention {
+    border-radius: 3px;
+    padding: 0 2px;
+    color: #7289da;
+    background: rgba(114, 137, 218, .1);
+    font-weight: 500;
+}
+
+.emoji {
+    width: 1.25em;
+    height: 1.25em;
+    margin: 0 0.06em;
+    vertical-align: -0.4em;
+}
+
+.emoji--small {
+    width: 1em;
+    height: 1em;
+}
+
+.emoji--large {
+    width: 2.8em;
+    height: 2.8em;
+}
+
+/* Preamble */
+
+.preamble {
+    display: grid;
+    margin: 0 0.3em 0.6em 0.3em;
+    max-width: 100%;
+    grid-template-columns: auto 1fr;
+}
+
+.preamble__guild-icon-container {
+    grid-column: 1;
+}
+
+.preamble__guild-icon {
+    max-width: 88px;
+    max-height: 88px;
+}
+
+.preamble__entries-container {
+    grid-column: 2;
+    margin-left: 0.6em;
+}
+
+.preamble__entry {
+    font-size: 1.4em;
+}
+
+.preamble__entry--small {
+    font-size: 1em;
+}
+
+/* Chatlog */
+
+.chatlog {
+    max-width: 100%;
+}
+
+.chatlog__message-group {
+    display: grid;
+    margin: 0 0.6em;
+    padding: 0.9em 0;
+    border-top: 1px solid;
+    grid-template-columns: auto 1fr;
+}
+
+.chatlog__author-avatar-container {
+    grid-column: 1;
+    width: 40px;
+    height: 40px;
+}
+
+.chatlog__author-avatar {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+.chatlog__messages {
+    grid-column: 2;
+    margin-left: 1.2em;
+    min-width: 50%;
+}
+
+.chatlog__author-name {
+    font-weight: 500;
+}
+
+.chatlog__timestamp {
+    margin-left: 0.3em;
+    font-size: 0.75em;
+}
+
+.chatlog__message {
+    padding: 0.1em 0.3em;
+    margin: 0 -0.3em;
+    background-color: transparent;
+    transition: background-color 1s ease;
+}
+
+.chatlog__content {
+    font-size: 0.95em;
+    word-wrap: break-word;
+}
+
+.chatlog__edited-timestamp {
+    margin-left: 0.15em;
+    font-size: 0.8em;
+}
+
+.chatlog__attachment-thumbnail {
+    margin-top: 0.3em;
+    max-width: 50%;
+    max-height: 500px;
+    border-radius: 3px;
+}
+
+.chatlog__embed {
+    display: flex;
+    margin-top: 0.3em;
+    max-width: 520px;
+}
+
+.chatlog__embed-color-pill {
+    flex-shrink: 0;
+    width: 0.25em;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.chatlog__embed-content-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em 0.6em;
+    border: 1px solid;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.chatlog__embed-content {
+    display: flex;
+    width: 100%;
+}
+
+.chatlog__embed-text {
+    flex: 1;
+}
+
+.chatlog__embed-author {
+    display: flex;
+    margin-bottom: 0.3em;
+    align-items: center;
+}
+
+.chatlog__embed-author-icon {
+    margin-right: 0.5em;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.chatlog__embed-author-name {
+    font-size: 0.875em;
+    font-weight: 600;
+}
+
+.chatlog__embed-title {
+    margin-bottom: 0.2em;
+    font-size: 0.875em;
+    font-weight: 600;
+}
+
+.chatlog__embed-description {
+    font-weight: 500;
+    font-size: 0.85em;
+}
+
+.chatlog__embed-fields {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.chatlog__embed-field {
+    flex: 0;
+    min-width: 100%;
+    max-width: 506px;
+    padding-top: 0.6em;
+    font-size: 0.875em;
+}
+
+.chatlog__embed-field--inline {
+    flex: 1;
+    flex-basis: auto;
+    min-width: 150px;
+}
+
+.chatlog__embed-field-name {
+    margin-bottom: 0.2em;
+    font-weight: 600;
+}
+
+.chatlog__embed-field-value {
+    font-weight: 500;
+}
+
+.chatlog__embed-thumbnail {
+    flex: 0;
+    margin-left: 1.2em;
+    max-width: 80px;
+    max-height: 80px;
+    border-radius: 3px;
+}
+
+.chatlog__embed-image-container {
+    margin-top: 0.6em;
+}
+
+.chatlog__embed-image {
+    max-width: 500px;
+    max-height: 400px;
+    border-radius: 3px;
+}
+
+.chatlog__embed-footer {
+    margin-top: 0.6em;
+}
+
+.chatlog__embed-footer-icon {
+    margin-right: 0.2em;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.chatlog__embed-footer-text {
+    font-size: 0.75em;
+    font-weight: 500;
+}
+
+.chatlog__reactions {
+    display: flex;
+}
+
+.chatlog__reaction {
+    display: flex;
+    align-items: center;
+    margin: 0.35em 0.1em 0.1em 0.1em;
+    padding: 0.2em 0.35em;
+    border-radius: 3px;
+}
+
+.chatlog__reaction-count {
+    min-width: 9px;
+    margin-left: 0.35em;
+    font-size: 0.875em;
+}
+
+.chatlog__bot-tag {
+    position: relative;
+    top: -.2em;
+    margin-left: 0.3em;
+    padding: 0.05em 0.3em;
+    border-radius: 3px;
+    vertical-align: middle;
+    line-height: 1.3;
+    background: #7289da;
+    color: #ffffff;
+    font-size: 0.625em;
+    font-weight: 500;
+}
+
+/* Postamble */
+
+.postamble {
+    margin: 1.4em 0.3em 0.6em 0.3em;
+    padding: 1em;
+    border-top: 1px solid;
+}
+    </style>
+    <style>
+        /* General */
+
+body {
+    background-color: #36393e;
+    color: #dcddde;
+}
+
+a {
+    color: #0096cf;
+}
+
+.spoiler {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.quote {
+    border-color: #4f545c;
+}
+
+.pre {
+    background-color: #2f3136 !important;
+}
+
+.pre--multiline {
+    border-color: #282b30 !important;
+    color: #b9bbbe !important;
+}
+
+/* === Preamble === */
+
+.preamble__entry {
+    color: #ffffff;
+}
+
+/* Chatlog */
+
+.chatlog__message-group {
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.chatlog__author-name {
+    color: #ffffff;
+}
+
+.chatlog__timestamp {
+    color: rgba(255, 255, 255, 0.2);
+}
+
+.chatlog__message--highlighted {
+    background-color: rgba(114, 137, 218, 0.2) !important;
+}
+
+.chatlog__message--pinned {
+    background-color: rgba(249, 168, 37, 0.05);
+}
+
+.chatlog__edited-timestamp {
+    color: rgba(255, 255, 255, 0.2);
+}
+
+.chatlog__embed-color-pill--default {
+    background-color: rgba(79, 84, 92, 1);
+}
+
+.chatlog__embed-content-container {
+    background-color: rgba(46, 48, 54, 0.3);
+    border-color: rgba(46, 48, 54, 0.6);
+}
+
+.chatlog__embed-author-name {
+    color: #ffffff;
+}
+
+.chatlog__embed-author-name-link {
+    color: #ffffff;
+}
+
+.chatlog__embed-title {
+    color: #ffffff;
+}
+
+.chatlog__embed-description {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.chatlog__embed-field-name {
+    color: #ffffff;
+}
+
+.chatlog__embed-field-value {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.chatlog__embed-footer {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.chatlog__reaction {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.chatlog__reaction-count {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+/* Postamble */
+
+.postamble {
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.postamble__entry {
+    color: #ffffff;
+}
+    </style>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/solarized-dark.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelectorAll('.pre--multiline').forEach(block => hljs.highlightBlock(block));
+        });
+    </script>
+
+    <script>
+        function scrollToMessage(event, id) {
+            var element = document.getElementById('message-' + id);
+
+            if (element) {
+                event.preventDefault();
+
+                element.classList.add('chatlog__message--highlighted');
+
+                window.scrollTo({
+                    top: element.getBoundingClientRect().top - document.body.getBoundingClientRect().top - (window.innerHeight / 2),
+                    behavior: 'smooth'
+                });
+
+                window.setTimeout(function() {
+                    element.classList.remove('chatlog__message--highlighted');
+                }, 2000);
+            }
+        }
+    </script>
+</head>
+<body>
+
+<div class="preamble">
+    <div class="preamble__guild-icon-container">
+        <img class="preamble__guild-icon" src="https://cdn.discordapp.com/icons/244230771232079873/a_34da0ee46c9ed9799a636a976c896361.png" alt="Guild icon" />
+    </div>
+    <div class="preamble__entries-container">
+        <div class="preamble__entry">The Programmer&#39;s Hangout</div>
+        
+        <div class="preamble__entry">madhadron Q&A - Aug 29th, 2020</div>
+
+
+    </div>
+</div>
+
+<div class="chatlog">
+    <div class="chatlog__message-group">
+    <div class="chatlog__author-avatar-container">
+        <img class="chatlog__author-avatar" src="https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png" alt="Avatar" />
+    </div>
+    <div class="chatlog__messages">
+    <span class="chatlog__author-name" title="Nano#8992" data-user-id="429275180309807134" style="color: #E91E63">Nano</span>
+
+            <span class="chatlog__bot-tag">BOT</span>
+
+        <span class="chatlog__timestamp">30-Aug-20 02:01 AM</span>
+
+            <div class="chatlog__message " data-message-id="749433598607884298" id="message-749433598607884298">
+                <div class="chatlog__content">
+                    <span class="markdown"></span>
+
+                </div>
+
+
+            <div class="chatlog__embed">
+                <div class="chatlog__embed-color-pill" style="background-color: rgba(255,0,255,1)"></div>
+                <div class="chatlog__embed-content-container">
+                    <div class="chatlog__embed-content">
+                        <div class="chatlog__embed-text">
+
+                            <div class="chatlog__embed-title">
+                                <span class="markdown">madhadron is answering Elliott&#39;s Question:</span>
+                            </div>
+
+                            <div class="chatlog__embed-description"><span class="markdown"><strong>Question:</strong>  If you could go back in time give young Madhadron a single piece of career advice, what would it be?</span></div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="chatlog__embed-footer">
+                        <img class="chatlog__embed-footer-icon" src="https://cdn.discordapp.com/avatars/335628039302021121/a_30232e21b6efa0e86b0b107b56f0af71.gif" alt="Footer icon" />
+
+                        <span class="chatlog__embed-footer-text">
+                            Asked by Elliott
+                            
+
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+                <div class="chatlog__reactions">
+                        <div class="chatlog__reaction">
+                            <img class="emoji emoji--small" alt="⭐" title="⭐" src="https://twemoji.maxcdn.com/2/72x72/2b50.png" />
+                            <span class="chatlog__reaction-count">2</span>
+                        </div>
+                </div>
+            </div>
+            <div class="chatlog__message " data-message-id="749433599303876619" id="message-749433599303876619">
+                <div class="chatlog__content">
+                    <span class="markdown"><strong>madhadron:</strong> Be kinder.</span>
+
+                </div>
+
+
+
+                <div class="chatlog__reactions">
+                        <div class="chatlog__reaction">
+                            <img class="emoji emoji--small" alt="❤️" title="❤️" src="https://twemoji.maxcdn.com/2/72x72/2764.png" />
+                            <span class="chatlog__reaction-count">16</span>
+                        </div>
+                        <div class="chatlog__reaction">
+                            <img class="emoji emoji--small" alt="GWjiangLoveHeart" title="GWjiangLoveHeart" src="https://cdn.discordapp.com/emojis/408280788749254658.png" />
+                            <span class="chatlog__reaction-count">9</span>
+                        </div>
+                </div>
+            </div>
+            <div class="chatlog__message " data-message-id="749433776668672120" id="message-749433776668672120">
+                <div class="chatlog__content">
+                    <span class="markdown"><strong>madhadron:</strong> I was a pretty harsh human being for many years, to the point were coworkers didn&#39;t want to give talks in front of me.</span>
+
+                </div>
+
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="749433820532572290" id="message-749433820532572290">
+                <div class="chatlog__content">
+                    <span class="markdown"><strong>madhadron:</strong> I uttered the phrase &quot;I&#39;m not paid to be nice, I&#39;m paid to be right&quot; too many times.</span>
+
+                </div>
+
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="749434001307205735" id="message-749434001307205735">
+                <div class="chatlog__content">
+                    <span class="markdown"><strong>madhadron:</strong> But there was no reason for it in most cases. Everything I was aiming for could have been accomplished more easily and more permanently with kindness.</span>
+
+                </div>
+
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="749434426353778840" id="message-749434426353778840">
+                <div class="chatlog__content">
+                    <span class="markdown"></span>
+
+                </div>
+
+
+            <div class="chatlog__embed">
+                <div class="chatlog__embed-color-pill" style="background-color: rgba(255,0,255,1)"></div>
+                <div class="chatlog__embed-content-container">
+                    <div class="chatlog__embed-content">
+                        <div class="chatlog__embed-text">
+
+                            <div class="chatlog__embed-title">
+                                <span class="markdown">madhadron is answering beerpsi&#39;s Question:</span>
+                            </div>
+
+                            <div class="chatlog__embed-description"><span class="markdown"><strong>Question:</strong>  What is the biggest change of mind you have ever got?</span></div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="chatlog__embed-footer">
+                        <img class="chatlog__embed-footer-icon" src="https://cdn.discordapp.com/avatars/249377596691709954/a_335b1c721b916e6466aa478f53529899.gif" alt="Footer icon" />
+
+                        <span class="chatlog__embed-footer-text">
+                            Asked by beerpsi
+                            
+
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+                <div class="chatlog__reactions">
+                        <div class="chatlog__reaction">
+                            <img class="emoji emoji--small" alt="⭐" title="⭐" src="https://twemoji.maxcdn.com/2/72x72/2b50.png" />
+                            <span class="chatlog__reaction-count">2</span>
+                        </div>
+                </div>
+            </div>
+            <div class="chatlog__message " data-message-id="749434427175862422" id="message-749434427175862422">
+                <div class="chatlog__content">
+                    <span class="markdown"><strong>madhadron:</strong> When I started university (in physics), I was focused on &quot;how do I derive this from first principles?&quot; It took a lot of years of study before I realized that was really backwards. The experiments are the fundamental thing. The mathematical structures are summaries of those, images cast in the mirror.</span>
+
+                </div>
+
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="749434711243489320" id="message-749434711243489320">
+                <div class="chatlog__content">
+                    <span class="markdown"><strong>madhadron:</strong> So when I was asking how to derive this from first principles, looking for axioms, it was the wrong question. The right one was what is the collection of experimental data this is summarizing and what idealizations have we made to get our mathematical shadow of it.</span>
+
+                </div>
+
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="749434875010089031" id="message-749434875010089031">
+                <div class="chatlog__content">
+                    <span class="markdown"></span>
+
+                </div>
+
+
+            <div class="chatlog__embed">
+                <div class="chatlog__embed-color-pill" style="background-color: rgba(255,0,255,1)"></div>
+                <div class="chatlog__embed-content-container">
+                    <div class="chatlog__embed-content">
+                        <div class="chatlog__embed-text">
+
+                            <div class="chatlog__embed-title">
+                                <span class="markdown">madhadron is answering speckledlemon&#39;s Question:</span>
+                            </div>
+
+                            <div class="chatlog__embed-description"><span class="markdown"><strong>Question:</strong>  Why did you decide to leave science and go into pure software development?</span></div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="chatlog__embed-footer">
+                        <img class="chatlog__embed-footer-icon" src="https://cdn.discordapp.com/avatars/392135911649050625/be5ed6d9931ad240a75d0128a029c2ba.png" alt="Footer icon" />
+
+                        <span class="chatlog__embed-footer-text">
+                            Asked by speckledlemon
+                            
+
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+                <div class="chatlog__reactions">
+                        <div class="chatlog__reaction">
+                            <img class="emoji emoji--small" alt="⭐" title="⭐" src="https://twemoji.maxcdn.com/2/72x72/2b50.png" />
+                            <span class="chatlog__reaction-count">2</span>
+                        </div>
+                </div>
+            </div>
+            <div class="chatlog__message " data-message-id="749434875597291601" id="message-749434875597291601">
+                <div class="chatlog__content">
+                    <span class="markdown"><strong>madhadron:</strong> Ah, this one. So I actually started out in software before university, and then went into physics. I spent a decade training to be a scientist.</span>
+
+                </div>
+
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="749434945130463253" id="message-749434945130463253">
+                <div class="chatlog__content">
+                    <span class="markdown"><strong>madhadron:</strong> It took me that long to realize that I am, by temperment, an engineer, not a scientist.</span>
+
+                </div>
+
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="749435065955516477" id="message-749435065955516477">
+                <div class="chatlog__content">
+                    <span class="markdown"><strong>madhadron:</strong> When I&#39;ve cobbled an experiment together to get a result, my first thought isn&#39;t, &quot;Right, next experiment.&quot; It&#39;s &quot;how do I make this repeatable at the press of the button for the next hundred people?&quot;</span>
+
+                </div>
+
+
+
+                <div class="chatlog__reactions">
+                        <div class="chatlog__reaction">
+                            <img class="emoji emoji--small" alt="p_cool" title="p_cool" src="https://cdn.discordapp.com/emojis/720059778495414322.png" />
+                            <span class="chatlog__reaction-count">2</span>
+                        </div>
+                </div>
+            </div>
+            <div class="chatlog__message " data-message-id="749435164232253450" id="message-749435164232253450">
+                <div class="chatlog__content">
+                    <span class="markdown"><strong>madhadron:</strong> This is great if you&#39;re a software engineer, not so good if you&#39;re a scientist.</span>
+
+                </div>
+
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="749435468390727700" id="message-749435468390727700">
+                <div class="chatlog__content">
+                    <span class="markdown"></span>
+
+                </div>
+
+
+            <div class="chatlog__embed">
+                <div class="chatlog__embed-color-pill" style="background-color: rgba(255,0,255,1)"></div>
+                <div class="chatlog__embed-content-container">
+                    <div class="chatlog__embed-content">
+                        <div class="chatlog__embed-text">
+
+                            <div class="chatlog__embed-title">
+                                <span class="markdown">madhadron is answering Clue&#39;s Question:</span>
+                            </div>
+
+                            <div class="chatlog__embed-description"><span class="markdown"><strong>Question:</strong>  You mention that coaching was an enormous help to you. How do you tell a good coach from a bad coach, specifically in computer science?</span></div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="chatlog__embed-footer">
+                        <img class="chatlog__embed-footer-icon" src="https://cdn.discordapp.com/avatars/458005360939368468/2859fd8794730b075563194cf4abce71.png" alt="Footer icon" />
+
+                        <span class="chatlog__embed-footer-text">
+                            Asked by Clue
+                            
+
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+                <div class="chatlog__reactions">
+                        <div class="chatlog__reaction">
+                            <img class="emoji emoji--small" alt="⭐" title="⭐" src="https://twemoji.maxcdn.com/2/72x72/2b50.png" />
+                            <span class="chatlog__reaction-count">3</span>
+                        </div>
+                </div>
+            </div>
+            <div class="chatlog__message " data-message-id="749435468587728969" id="message-749435468587728969">
+                <div class="chatlog__content">
+                    <span class="markdown"><strong>madhadron:</strong> Oh, this is a good one. Umm...so the three people I directly dealt with that coached or mentored me in CS in my teens were my old boss (now deceased), a professional software engineer who specialized in enterprise IT systems on Windows and a grad student in programming languages.</span>
+
+                </div>
+
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="749435513030574172" id="message-749435513030574172">
+                <div class="chatlog__content">
+                    <span class="markdown"><strong>madhadron:</strong> The latter two were folks I knew from my IRC Dungeons &amp; Dragons groups.</span>
+
+                </div>
+
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="749435551660113980" id="message-749435551660113980">
+                <div class="chatlog__content">
+                    <span class="markdown"><strong>madhadron:</strong> I&#39;ve never met them in person, never knew their real names.</span>
+
+                </div>
+
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="749435883140284486" id="message-749435883140284486">
+                <div class="chatlog__content">
+                    <span class="markdown"><strong>madhadron:</strong> I would say that a good coach is one that points you in directions that change your thinking in ways that make you nontrivially more powerful, that makes you feel excited about the subject, and that can concisely orient you in the landscape that you&#39;re groping around.</span>
+
+                </div>
+
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="749436086345924660" id="message-749436086345924660">
+                <div class="chatlog__content">
+                    <span class="markdown"><strong>madhadron:</strong> It needn&#39;t be purely technical things. I have had young engineers claim that a simple explanation about incentives and company politics changed their lives, or explaining cash flow and businesses. But models that le them interpret previously vague or invisible parts of their world.</span>
+
+                </div>
+
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="749436401501864008" id="message-749436401501864008">
+                <div class="chatlog__content">
+                    <span class="markdown"></span>
+
+                </div>
+
+
+            <div class="chatlog__embed">
+                <div class="chatlog__embed-color-pill" style="background-color: rgba(255,0,255,1)"></div>
+                <div class="chatlog__embed-content-container">
+                    <div class="chatlog__embed-content">
+                        <div class="chatlog__embed-text">
+
+                            <div class="chatlog__embed-title">
+                                <span class="markdown">madhadron is answering EELI&#39;s Question:</span>
+                            </div>
+
+                            <div class="chatlog__embed-description"><span class="markdown"><strong>Question:</strong>  Were there any books / resources that you would consider particularly important in your development as a programmer?</span></div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="chatlog__embed-footer">
+                        <img class="chatlog__embed-footer-icon" src="https://cdn.discordapp.com/avatars/109822462455246848/242e3188b3079146e1ed89836541ecc7.png" alt="Footer icon" />
+
+                        <span class="chatlog__embed-footer-text">
+                            Asked by EELI
+                            
+
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+                <div class="chatlog__reactions">
+                        <div class="chatlog__reaction">
+                            <img class="emoji emoji--small" alt="⭐" title="⭐" src="https://twemoji.maxcdn.com/2/72x72/2b50.png" />
+                            <span class="chatlog__reaction-count">3</span>
+                        </div>
+                </div>
+            </div>
+            <div class="chatlog__message " data-message-id="749436402395119708" id="message-749436402395119708">
+                <div class="chatlog__content">
+                    <span class="markdown"><strong>madhadron:</strong> Lots and lots. I spent a lot of time with both Alan Kay and EW Dijkstra&#39;s works. They&#39;re diametric opposites, but there&#39;s a character to their thinking (Kay called it &quot;playing it grand&quot;) that both share, and working through the mental dissonance of these two utterly different approaches was revealing.</span>
+
+                </div>
+
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="749436531776946216" id="message-749436531776946216">
+                <div class="chatlog__content">
+                    <span class="markdown"><strong>madhadron:</strong> In terms of books, I would say Leo Brodie&#39;s Starting Forth and Thinking Forth and Ullman&#39;s Elements of Standard ML were the most influential books that I remember.</span>
+
+                </div>
+
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="749436729995558923" id="message-749436729995558923">
+                <div class="chatlog__content">
+                    <span class="markdown"><strong>madhadron:</strong> I also spent a lot of time looking into the history of the field, reading accounts from people who designed or worked on Burroughs machines or NeWS at Sun or lots of other stuff. That kind of oral history contains most of the &quot;why&quot; of our field, and I think it&#39;s vastly underappreciated.</span>
+
+                </div>
+
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="749437087811371049" id="message-749437087811371049">
+                <div class="chatlog__content">
+                    <span class="markdown"></span>
+
+                </div>
+
+
+            <div class="chatlog__embed">
+                <div class="chatlog__embed-color-pill" style="background-color: rgba(255,0,255,1)"></div>
+                <div class="chatlog__embed-content-container">
+                    <div class="chatlog__embed-content">
+                        <div class="chatlog__embed-text">
+
+                            <div class="chatlog__embed-title">
+                                <span class="markdown">madhadron is answering trout <img class="emoji " alt="🐟" title="🐟" src="https://twemoji.maxcdn.com/2/72x72/1f41f.png" />&#39;s Question:</span>
+                            </div>
+
+                            <div class="chatlog__embed-description"><span class="markdown"><strong>Question:</strong>  When you took a dive into the world of cosmosdb, did you have any existing specialties in databases or did you get deeper into that kind of knowledge “on the job”?</span></div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="chatlog__embed-footer">
+                        <img class="chatlog__embed-footer-icon" src="https://cdn.discordapp.com/avatars/369748885968781313/009ae1713a25dea8eaaf13657b91341f.png" alt="Footer icon" />
+
+                        <span class="chatlog__embed-footer-text">
+                            Asked by trout &#128031;
+                            
+
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+                <div class="chatlog__reactions">
+                        <div class="chatlog__reaction">
+                            <img class="emoji emoji--small" alt="⭐" title="⭐" src="https://twemoji.maxcdn.com/2/72x72/2b50.png" />
+                            <span class="chatlog__reaction-count">3</span>
+                        </div>
+                </div>
+            </div>
+            <div class="chatlog__message " data-message-id="749437088742768710" id="message-749437088742768710">
+                <div class="chatlog__content">
+                    <span class="markdown"><strong>madhadron:</strong> Ha! I went from being the owner of Facebook&#39;s main ads database to CosmosDB. I had written Facebook&#39;s large scale systems class for new hires and was regarded as part of the MySQL core team in all but official org chart. So, yes, databases were a thing for me.</span>
+
+                </div>
+
+
+
+                <div class="chatlog__reactions">
+                        <div class="chatlog__reaction">
+                            <img class="emoji emoji--small" alt="PogU" title="PogU" src="https://cdn.discordapp.com/emojis/639507969498677258.png" />
+                            <span class="chatlog__reaction-count">15</span>
+                        </div>
+                </div>
+            </div>
+            <div class="chatlog__message " data-message-id="749437347665543209" id="message-749437347665543209">
+                <div class="chatlog__content">
+                    <span class="markdown"><strong>madhadron:</strong> Databases are one of those things that I&#39;ve been doing in some form since the 1990&#39;s, so I was quite proximate when that&#39;s what needed diving into and I became a specialist.</span>
+
+                </div>
+
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="749437578910105622" id="message-749437578910105622">
+                <div class="chatlog__content">
+                    <span class="markdown"><strong>madhadron:</strong> Now, I don&#39;t know any of these databases the way that some of Facebook&#39;s guys knew MySQL. They were amazing, could tell you every lock taken in the code and diagnose things that were like black magic even to me.</span>
+
+                </div>
+
+
+
+                <div class="chatlog__reactions">
+                        <div class="chatlog__reaction">
+                            <img class="emoji emoji--small" alt="GWseremePeepoThink" title="GWseremePeepoThink" src="https://cdn.discordapp.com/emojis/402867838580293643.png" />
+                            <span class="chatlog__reaction-count">6</span>
+                        </div>
+                </div>
+            </div>
+            <div class="chatlog__message " data-message-id="749437837220511795" id="message-749437837220511795">
+                <div class="chatlog__content">
+                    <span class="markdown"></span>
+
+                </div>
+
+
+            <div class="chatlog__embed">
+                <div class="chatlog__embed-color-pill" style="background-color: rgba(255,0,255,1)"></div>
+                <div class="chatlog__embed-content-container">
+                    <div class="chatlog__embed-content">
+                        <div class="chatlog__embed-text">
+
+                            <div class="chatlog__embed-title">
+                                <span class="markdown">madhadron is answering Dioxin&#39;s Question:</span>
+                            </div>
+
+                            <div class="chatlog__embed-description"><span class="markdown"><strong>Question:</strong>  Other than Discord, what are some mediums you use for teaching programming? (for example: Stack Exchange, HackHands, etc..)</span></div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="chatlog__embed-footer">
+                        <img class="chatlog__embed-footer-icon" src="https://cdn.discordapp.com/embed/avatars/3.png" alt="Footer icon" />
+
+                        <span class="chatlog__embed-footer-text">
+                            Asked by Dioxin
+                            
+
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+                <div class="chatlog__reactions">
+                        <div class="chatlog__reaction">
+                            <img class="emoji emoji--small" alt="⭐" title="⭐" src="https://twemoji.maxcdn.com/2/72x72/2b50.png" />
+                            <span class="chatlog__reaction-count">2</span>
+                        </div>
+                </div>
+            </div>
+            <div class="chatlog__message " data-message-id="749437838277214303" id="message-749437838277214303">
+                <div class="chatlog__content">
+                    <span class="markdown"><strong>madhadron:</strong> Aside from being everyone&#39;s crazy uncle on Discord, I mostly teach one on one. Right now I&#39;m using USE Engine and VSCode to teach a friend&#39;s daughter. Otherwise it tends to be in person. If it weren&#39;t for covid, I&#39;d be teaching my current student in person, too.</span>
+
+                </div>
+
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="749437912155684914" id="message-749437912155684914">
+                <div class="chatlog__content">
+                    <span class="markdown"><strong>madhadron:</strong> I write for my website a lot. I guess that&#39;s the other major medium.</span>
+
+                </div>
+
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="749438318248460338" id="message-749438318248460338">
+                <div class="chatlog__content">
+                    <span class="markdown"></span>
+
+                </div>
+
+
+            <div class="chatlog__embed">
+                <div class="chatlog__embed-color-pill" style="background-color: rgba(255,0,255,1)"></div>
+                <div class="chatlog__embed-content-container">
+                    <div class="chatlog__embed-content">
+                        <div class="chatlog__embed-text">
+
+                            <div class="chatlog__embed-title">
+                                <span class="markdown">madhadron is answering Kemikals&#39;s Question:</span>
+                            </div>
+
+                            <div class="chatlog__embed-description"><span class="markdown"><strong>Question:</strong>  I also received a lot of invaluable coaching via IRC in the 90&#39;s and early 2000&#39;s, do you feel that discord or other chat mediums provide in the same way that IRC used to?</span></div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="chatlog__embed-footer">
+                        <img class="chatlog__embed-footer-icon" src="https://cdn.discordapp.com/avatars/255737305891864577/7cc25dd28802e51b7f3edc021e243642.png" alt="Footer icon" />
+
+                        <span class="chatlog__embed-footer-text">
+                            Asked by Kemikals
+                            
+
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+                <div class="chatlog__reactions">
+                        <div class="chatlog__reaction">
+                            <img class="emoji emoji--small" alt="⭐" title="⭐" src="https://twemoji.maxcdn.com/2/72x72/2b50.png" />
+                            <span class="chatlog__reaction-count">2</span>
+                        </div>
+                </div>
+            </div>
+            <div class="chatlog__message " data-message-id="749438318810497065" id="message-749438318810497065">
+                <div class="chatlog__content">
+                    <span class="markdown"><strong>madhadron:</strong> I have found that the medium is less important than the individual cultures and milieus within the medium. There are Discords that are dead or are horrible. There are super functional ones, such as TPH and a wonderful writer&#39;s chat I know. The same was true for IRC. My IRC life centered around a very functional, close knit #adnd on Dalnet back in the day (long gone now).</span>
+
+                </div>
+
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="749438377589342310" id="message-749438377589342310">
+                <div class="chatlog__content">
+                    <span class="markdown"><strong>madhadron:</strong> I&#39;ve also found incredibly functional cultures on email lists, and completely broken ones.</span>
+
+                </div>
+
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="749438540596641892" id="message-749438540596641892">
+                <div class="chatlog__content">
+                    <span class="markdown"><strong>madhadron:</strong> The biggest thing is having a critical mass of core people who share expectations about how things operate and ops/admins who can enforce those.</span>
+
+                </div>
+
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="749439068911304775" id="message-749439068911304775">
+                <div class="chatlog__content">
+                    <span class="markdown"></span>
+
+                </div>
+
+
+            <div class="chatlog__embed">
+                <div class="chatlog__embed-color-pill" style="background-color: rgba(255,0,255,1)"></div>
+                <div class="chatlog__embed-content-container">
+                    <div class="chatlog__embed-content">
+                        <div class="chatlog__embed-text">
+
+                            <div class="chatlog__embed-title">
+                                <span class="markdown">madhadron is answering haekuh&#39;s Question:</span>
+                            </div>
+
+                            <div class="chatlog__embed-description"><span class="markdown"><strong>Question:</strong>  with all your experience in various languages, and architecture, how do you feel about rust? Do you think it will take over from Java/C++(eventually)?</span></div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="chatlog__embed-footer">
+                        <img class="chatlog__embed-footer-icon" src="https://cdn.discordapp.com/avatars/137996034616983552/6d647243d03e0387c0b8715612b1ef38.png" alt="Footer icon" />
+
+                        <span class="chatlog__embed-footer-text">
+                            Asked by haekuh
+                            
+
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+                <div class="chatlog__reactions">
+                        <div class="chatlog__reaction">
+                            <img class="emoji emoji--small" alt="⭐" title="⭐" src="https://twemoji.maxcdn.com/2/72x72/2b50.png" />
+                            <span class="chatlog__reaction-count">2</span>
+                        </div>
+                </div>
+            </div>
+            <div class="chatlog__message " data-message-id="749439069175414885" id="message-749439069175414885">
+                <div class="chatlog__content">
+                    <span class="markdown"><strong>madhadron:</strong> I truly don&#39;t know. If it gets traction as a major language inside somewhere like Facebook, perhaps it could. I have observed that programming languages tend to prosper or disappear for reasons that are largely incidental to their design.</span>
+
+                </div>
+
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="749439489364983908" id="message-749439489364983908">
+                <div class="chatlog__content">
+                    <span class="markdown"></span>
+
+                </div>
+
+
+            <div class="chatlog__embed">
+                <div class="chatlog__embed-color-pill" style="background-color: rgba(255,0,255,1)"></div>
+                <div class="chatlog__embed-content-container">
+                    <div class="chatlog__embed-content">
+                        <div class="chatlog__embed-text">
+
+                            <div class="chatlog__embed-title">
+                                <span class="markdown">madhadron is answering travisk_says&#39;s Question:</span>
+                            </div>
+
+                            <div class="chatlog__embed-description"><span class="markdown"><strong>Question:</strong>  What formulation (i.e. interpretation) of quantum mechanics has your highest baysian prior (i.e. most likely correct)?</span></div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="chatlog__embed-footer">
+                        <img class="chatlog__embed-footer-icon" src="https://cdn.discordapp.com/avatars/656948986867089423/a_36d27a86c01991d00cddbd7a813afce9.gif" alt="Footer icon" />
+
+                        <span class="chatlog__embed-footer-text">
+                            Asked by travisk_says
+                            
+
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+                <div class="chatlog__reactions">
+                        <div class="chatlog__reaction">
+                            <img class="emoji emoji--small" alt="⭐" title="⭐" src="https://twemoji.maxcdn.com/2/72x72/2b50.png" />
+                            <span class="chatlog__reaction-count">3</span>
+                        </div>
+                </div>
+            </div>
+            <div class="chatlog__message " data-message-id="749439490283536544" id="message-749439490283536544">
+                <div class="chatlog__content">
+                    <span class="markdown"><strong>madhadron:</strong> Well, I&#39;m convinced that it is nonlocal and quantum states are ontic. I have yet to find a collapse scheme that has seemed like an utter hack. So I seem to be falling back to Everettian more and more just because nothing in it bothers me.</span>
+
+                </div>
+
+
+
+                <div class="chatlog__reactions">
+                        <div class="chatlog__reaction">
+                            <img class="emoji emoji--small" alt="👌" title="👌" src="https://twemoji.maxcdn.com/2/72x72/1f44c.png" />
+                            <span class="chatlog__reaction-count">3</span>
+                        </div>
+                        <div class="chatlog__reaction">
+                            <img class="emoji emoji--small" alt="💯" title="💯" src="https://twemoji.maxcdn.com/2/72x72/1f4af.png" />
+                            <span class="chatlog__reaction-count">3</span>
+                        </div>
+                        <div class="chatlog__reaction">
+                            <img class="emoji emoji--small" alt="🌍" title="🌍" src="https://twemoji.maxcdn.com/2/72x72/1f30d.png" />
+                            <span class="chatlog__reaction-count">3</span>
+                        </div>
+                        <div class="chatlog__reaction">
+                            <img class="emoji emoji--small" alt="🌎" title="🌎" src="https://twemoji.maxcdn.com/2/72x72/1f30e.png" />
+                            <span class="chatlog__reaction-count">4</span>
+                        </div>
+                        <div class="chatlog__reaction">
+                            <img class="emoji emoji--small" alt="🌏" title="🌏" src="https://twemoji.maxcdn.com/2/72x72/1f30f.png" />
+                            <span class="chatlog__reaction-count">3</span>
+                        </div>
+                        <div class="chatlog__reaction">
+                            <img class="emoji emoji--small" alt="🤮" title="🤮" src="https://twemoji.maxcdn.com/2/72x72/1f92e.png" />
+                            <span class="chatlog__reaction-count">1</span>
+                        </div>
+                </div>
+            </div>
+            <div class="chatlog__message " data-message-id="749439774451826748" id="message-749439774451826748">
+                <div class="chatlog__content">
+                    <span class="markdown"></span>
+
+                </div>
+
+
+            <div class="chatlog__embed">
+                <div class="chatlog__embed-color-pill" style="background-color: rgba(255,0,255,1)"></div>
+                <div class="chatlog__embed-content-container">
+                    <div class="chatlog__embed-content">
+                        <div class="chatlog__embed-text">
+
+                            <div class="chatlog__embed-title">
+                                <span class="markdown">madhadron is answering iWillBanU&#39;s Question:</span>
+                            </div>
+
+                            <div class="chatlog__embed-description"><span class="markdown"><strong>Question:</strong>  What lead you to joining this server?</span></div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="chatlog__embed-footer">
+                        <img class="chatlog__embed-footer-icon" src="https://cdn.discordapp.com/avatars/474016258019557377/0e6f10b460a50ee8f848ebf9ad655739.png" alt="Footer icon" />
+
+                        <span class="chatlog__embed-footer-text">
+                            Asked by iWillBanU
+                            
+
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+                <div class="chatlog__reactions">
+                        <div class="chatlog__reaction">
+                            <img class="emoji emoji--small" alt="⭐" title="⭐" src="https://twemoji.maxcdn.com/2/72x72/2b50.png" />
+                            <span class="chatlog__reaction-count">2</span>
+                        </div>
+                </div>
+            </div>
+            <div class="chatlog__message " data-message-id="749439775047680150" id="message-749439775047680150">
+                <div class="chatlog__content">
+                    <span class="markdown"><strong>madhadron:</strong> A degree of loneliness. I had been very involved in a martial arts mailing list for some years, and was kind of wandering around looking for something to fill that gap of a virtual community.</span>
+
+                </div>
+
+
+
+                <div class="chatlog__reactions">
+                        <div class="chatlog__reaction">
+                            <img class="emoji emoji--small" alt="GWjiangLoveHeart" title="GWjiangLoveHeart" src="https://cdn.discordapp.com/emojis/408280788749254658.png" />
+                            <span class="chatlog__reaction-count">12</span>
+                        </div>
+                        <div class="chatlog__reaction">
+                            <img class="emoji emoji--small" alt="hearts" title="hearts" src="https://cdn.discordapp.com/emojis/585543781651185693.gif" />
+                            <span class="chatlog__reaction-count">10</span>
+                        </div>
+                        <div class="chatlog__reaction">
+                            <img class="emoji emoji--small" alt="blobhearts" title="blobhearts" src="https://cdn.discordapp.com/emojis/717882286477017138.gif" />
+                            <span class="chatlog__reaction-count">8</span>
+                        </div>
+                        <div class="chatlog__reaction">
+                            <img class="emoji emoji--small" alt="blinking" title="blinking" src="https://cdn.discordapp.com/emojis/593050160196616193.png" />
+                            <span class="chatlog__reaction-count">4</span>
+                        </div>
+                </div>
+            </div>
+            <div class="chatlog__message " data-message-id="749439972351803443" id="message-749439972351803443">
+                <div class="chatlog__content">
+                    <span class="markdown"></span>
+
+                </div>
+
+
+            <div class="chatlog__embed">
+                <div class="chatlog__embed-color-pill" style="background-color: rgba(255,0,255,1)"></div>
+                <div class="chatlog__embed-content-container">
+                    <div class="chatlog__embed-content">
+                        <div class="chatlog__embed-text">
+
+                            <div class="chatlog__embed-title">
+                                <span class="markdown">madhadron is answering spirit_warriors&#39;s Question:</span>
+                            </div>
+
+                            <div class="chatlog__embed-description"><span class="markdown"><strong>Question:</strong>  What kind of non-technical skills have helped you as your time in programming/software development?</span></div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="chatlog__embed-footer">
+                        <img class="chatlog__embed-footer-icon" src="https://cdn.discordapp.com/avatars/185225168195551232/b5601302cef9bccd759cabf409a72087.png" alt="Footer icon" />
+
+                        <span class="chatlog__embed-footer-text">
+                            Asked by spirit_warriors
+                            
+
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+                <div class="chatlog__reactions">
+                        <div class="chatlog__reaction">
+                            <img class="emoji emoji--small" alt="⭐" title="⭐" src="https://twemoji.maxcdn.com/2/72x72/2b50.png" />
+                            <span class="chatlog__reaction-count">2</span>
+                        </div>
+                </div>
+            </div>
+            <div class="chatlog__message " data-message-id="749439973165498428" id="message-749439973165498428">
+                <div class="chatlog__content">
+                    <span class="markdown"><strong>madhadron:</strong> Planning and organization, certainly. I&#39;ve been operating an implementation of David Allen&#39;s &#39;Getting Things Done&#39; since 2002, which makes me one of its longest running practitioners, as far as I know.</span>
+
+                </div>
+
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="749440113913888808" id="message-749440113913888808">
+                <div class="chatlog__content">
+                    <span class="markdown"><strong>madhadron:</strong> The ability to lighten a conversation, to make people around me smile has been critical, I think.</span>
+
+                </div>
+
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="749440288317112451" id="message-749440288317112451">
+                <div class="chatlog__content">
+                    <span class="markdown"><strong>madhadron:</strong> Speaking and writing well are useful. Being able to read critically and accurately is essential.</span>
+
+                </div>
+
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="749440490809589783" id="message-749440490809589783">
+                <div class="chatlog__content">
+                    <span class="markdown"><strong>madhadron:</strong> And just being able to listen to someone and lead them out until I understand what they&#39;re saying, and then trying to help them as well as I can.</span>
+
+                </div>
+
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="749440633659457546" id="message-749440633659457546">
+                <div class="chatlog__content">
+                    <span class="markdown"></span>
+
+                </div>
+
+
+            <div class="chatlog__embed">
+                <div class="chatlog__embed-color-pill" style="background-color: rgba(255,0,255,1)"></div>
+                <div class="chatlog__embed-content-container">
+                    <div class="chatlog__embed-content">
+                        <div class="chatlog__embed-text">
+
+                            <div class="chatlog__embed-title">
+                                <span class="markdown">madhadron is answering travisk_says&#39;s Question:</span>
+                            </div>
+
+                            <div class="chatlog__embed-description"><span class="markdown"><strong>Question:</strong>  What is your favorite mathmatical object/field of study?</span></div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="chatlog__embed-footer">
+                        <img class="chatlog__embed-footer-icon" src="https://cdn.discordapp.com/avatars/656948986867089423/a_36d27a86c01991d00cddbd7a813afce9.gif" alt="Footer icon" />
+
+                        <span class="chatlog__embed-footer-text">
+                            Asked by travisk_says
+                            
+
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+                <div class="chatlog__reactions">
+                        <div class="chatlog__reaction">
+                            <img class="emoji emoji--small" alt="⭐" title="⭐" src="https://twemoji.maxcdn.com/2/72x72/2b50.png" />
+                            <span class="chatlog__reaction-count">4</span>
+                        </div>
+                </div>
+            </div>
+            <div class="chatlog__message " data-message-id="749440634284277830" id="message-749440634284277830">
+                <div class="chatlog__content">
+                    <span class="markdown"><strong>madhadron:</strong> I&#39;m <em>not</em> going to say spinors, because SO(3) is like crack cocaine to my brain. I know I&#39;m in a bad place if I pull those out.</span>
+
+                </div>
+
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="749440756699234407" id="message-749440756699234407">
+                <div class="chatlog__content">
+                    <span class="markdown"><strong>madhadron:</strong> I feel like my favorite ones are probably semigroups and semilattices for the sheer amount of organization of my world I get from them.</span>
+
+                </div>
+
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="749440976178905118" id="message-749440976178905118">
+                <div class="chatlog__content">
+                    <span class="markdown"></span>
+
+                </div>
+
+
+            <div class="chatlog__embed">
+                <div class="chatlog__embed-color-pill" style="background-color: rgba(255,0,255,1)"></div>
+                <div class="chatlog__embed-content-container">
+                    <div class="chatlog__embed-content">
+                        <div class="chatlog__embed-text">
+
+                            <div class="chatlog__embed-title">
+                                <span class="markdown">madhadron is answering phoenix&#39;s Question:</span>
+                            </div>
+
+                            <div class="chatlog__embed-description"><span class="markdown"><strong>Question:</strong>  Out of all the languages you&#39;ve worked with, which one is your favourite?</span></div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="chatlog__embed-footer">
+                        <img class="chatlog__embed-footer-icon" src="https://cdn.discordapp.com/avatars/187510439066730496/244bef7eb89dc9ff47bb2bda8f87192a.png" alt="Footer icon" />
+
+                        <span class="chatlog__embed-footer-text">
+                            Asked by phoenix
+                            
+
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+                <div class="chatlog__reactions">
+                        <div class="chatlog__reaction">
+                            <img class="emoji emoji--small" alt="⭐" title="⭐" src="https://twemoji.maxcdn.com/2/72x72/2b50.png" />
+                            <span class="chatlog__reaction-count">2</span>
+                        </div>
+                </div>
+            </div>
+            <div class="chatlog__message " data-message-id="749440976472375359" id="message-749440976472375359">
+                <div class="chatlog__content">
+                    <span class="markdown"><strong>madhadron:</strong> None of the above. I categorize languages by what I loathe about each of them.</span>
+
+                </div>
+
+
+
+                <div class="chatlog__reactions">
+                        <div class="chatlog__reaction">
+                            <img class="emoji emoji--small" alt="lol" title="lol" src="https://cdn.discordapp.com/emojis/657311422878842918.png" />
+                            <span class="chatlog__reaction-count">16</span>
+                        </div>
+                        <div class="chatlog__reaction">
+                            <img class="emoji emoji--small" alt="😎" title="😎" src="https://twemoji.maxcdn.com/2/72x72/1f60e.png" />
+                            <span class="chatlog__reaction-count">7</span>
+                        </div>
+                        <div class="chatlog__reaction">
+                            <img class="emoji emoji--small" alt="this" title="this" src="https://cdn.discordapp.com/emojis/479088106939613184.gif" />
+                            <span class="chatlog__reaction-count">6</span>
+                        </div>
+                </div>
+            </div>
+            <div class="chatlog__message " data-message-id="749441089555136606" id="message-749441089555136606">
+                <div class="chatlog__content">
+                    <span class="markdown"></span>
+
+                </div>
+
+
+            <div class="chatlog__embed">
+                <div class="chatlog__embed-color-pill" style="background-color: rgba(255,0,255,1)"></div>
+                <div class="chatlog__embed-content-container">
+                    <div class="chatlog__embed-content">
+                        <div class="chatlog__embed-text">
+
+                            <div class="chatlog__embed-title">
+                                <span class="markdown">madhadron is answering spirit_warriors&#39;s Question:</span>
+                            </div>
+
+                            <div class="chatlog__embed-description"><span class="markdown"><strong>Question:</strong>  What personal characteristics do you believe are helpful for success in your field?</span></div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="chatlog__embed-footer">
+                        <img class="chatlog__embed-footer-icon" src="https://cdn.discordapp.com/avatars/185225168195551232/b5601302cef9bccd759cabf409a72087.png" alt="Footer icon" />
+
+                        <span class="chatlog__embed-footer-text">
+                            Asked by spirit_warriors
+                            
+
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+                <div class="chatlog__reactions">
+                        <div class="chatlog__reaction">
+                            <img class="emoji emoji--small" alt="⭐" title="⭐" src="https://twemoji.maxcdn.com/2/72x72/2b50.png" />
+                            <span class="chatlog__reaction-count">2</span>
+                        </div>
+                </div>
+            </div>
+            <div class="chatlog__message " data-message-id="749441090507112459" id="message-749441090507112459">
+                <div class="chatlog__content">
+                    <span class="markdown"><strong>madhadron:</strong> I have seen so many different people and so many different paths that I rather hesitate to try to guess.</span>
+
+                </div>
+
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="749441159255818261" id="message-749441159255818261">
+                <div class="chatlog__content">
+                    <span class="markdown"><strong>madhadron:</strong> We all have different paths, sometimes very different.</span>
+
+                </div>
+
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="749441406921342976" id="message-749441406921342976">
+                <div class="chatlog__content">
+                    <span class="markdown"><strong>madhadron:</strong> I have seen assholes thrive and those who care deeply for those around them. I&#39;ve seen vague, big picture thinkers throwing code at the wall do amazing things and people with utterly precise minds.</span>
+
+                </div>
+
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="749441536499908729" id="message-749441536499908729">
+                <div class="chatlog__content">
+                    <span class="markdown"><strong>madhadron:</strong> I guess the sole thing is the ability to communicate and collaborate. We&#39;re all in over our heads. Our brains weren&#39;t evolved for this and we need help.</span>
+
+                </div>
+
+
+
+                <div class="chatlog__reactions">
+                        <div class="chatlog__reaction">
+                            <img class="emoji emoji--small" alt="internalscreaming" title="internalscreaming" src="https://cdn.discordapp.com/emojis/582075549883564032.png" />
+                            <span class="chatlog__reaction-count">2</span>
+                        </div>
+                </div>
+            </div>
+            <div class="chatlog__message " data-message-id="749441764578033684" id="message-749441764578033684">
+                <div class="chatlog__content">
+                    <span class="markdown"></span>
+
+                </div>
+
+
+            <div class="chatlog__embed">
+                <div class="chatlog__embed-color-pill" style="background-color: rgba(255,0,255,1)"></div>
+                <div class="chatlog__embed-content-container">
+                    <div class="chatlog__embed-content">
+                        <div class="chatlog__embed-text">
+
+                            <div class="chatlog__embed-title">
+                                <span class="markdown">madhadron is answering spirit_warriors&#39;s Question:</span>
+                            </div>
+
+                            <div class="chatlog__embed-description"><span class="markdown"><strong>Question:</strong>  What is most rewarding about your job? What is the most difficult thing?</span></div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="chatlog__embed-footer">
+                        <img class="chatlog__embed-footer-icon" src="https://cdn.discordapp.com/avatars/185225168195551232/b5601302cef9bccd759cabf409a72087.png" alt="Footer icon" />
+
+                        <span class="chatlog__embed-footer-text">
+                            Asked by spirit_warriors
+                            
+
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+                <div class="chatlog__reactions">
+                        <div class="chatlog__reaction">
+                            <img class="emoji emoji--small" alt="⭐" title="⭐" src="https://twemoji.maxcdn.com/2/72x72/2b50.png" />
+                            <span class="chatlog__reaction-count">2</span>
+                        </div>
+                </div>
+            </div>
+            <div class="chatlog__message " data-message-id="749441765144002711" id="message-749441765144002711">
+                <div class="chatlog__content">
+                    <span class="markdown"><strong>madhadron:</strong> So this is a bit nuanced. I have avoided becoming a manager, because the day to day production of code is a source of base contentment. Feynman described something similar how he didn&#39;t want a position without teaching because you had something that you were supposed to show up and do and you could succeed at even if your other work was a giant burning mess.</span>
+
+                </div>
+
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="749441869402079272" id="message-749441869402079272">
+                <div class="chatlog__content">
+                    <span class="markdown"><strong>madhadron:</strong> I don&#39;t like spending all my time down a coding rabbit hole anymore, and I know it&#39;s not healthy for my mental state (again, people vary).</span>
+
+                </div>
+
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="749442010565574736" id="message-749442010565574736">
+                <div class="chatlog__content">
+                    <span class="markdown"><strong>madhadron:</strong> After that I take enormous satisfaction in mentoring and teaching and helping my colleagues talk through things. I am, to the shock of many that know me, a people person.</span>
+
+                </div>
+
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="749442236147695696" id="message-749442236147695696">
+                <div class="chatlog__content">
+                    <span class="markdown"></span>
+
+                </div>
+
+
+            <div class="chatlog__embed">
+                <div class="chatlog__embed-color-pill" style="background-color: rgba(255,0,255,1)"></div>
+                <div class="chatlog__embed-content-container">
+                    <div class="chatlog__embed-content">
+                        <div class="chatlog__embed-text">
+
+                            <div class="chatlog__embed-title">
+                                <span class="markdown">madhadron is answering infinity&#39;s Question:</span>
+                            </div>
+
+                            <div class="chatlog__embed-description"><span class="markdown"><strong>Question:</strong>  What&#39;s one piece, or two, of advice you can offer a new grad who lacks experience; whether the advice is technical, personality, anything.
+
+Perhaps better phrasing would be, what are one or two things (not limited ofc) you believe has helped you throughout your career and in life for that matter?</span></div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="chatlog__embed-footer">
+                        <img class="chatlog__embed-footer-icon" src="https://cdn.discordapp.com/avatars/108379014145511424/4418beed4fc9deaa2bdabe4e8cce9b0c.png" alt="Footer icon" />
+
+                        <span class="chatlog__embed-footer-text">
+                            Asked by infinity
+                            
+
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+                <div class="chatlog__reactions">
+                        <div class="chatlog__reaction">
+                            <img class="emoji emoji--small" alt="⭐" title="⭐" src="https://twemoji.maxcdn.com/2/72x72/2b50.png" />
+                            <span class="chatlog__reaction-count">2</span>
+                        </div>
+                </div>
+            </div>
+            <div class="chatlog__message " data-message-id="749442236361474119" id="message-749442236361474119">
+                <div class="chatlog__content">
+                    <span class="markdown"><strong>madhadron:</strong> I really, really hesitate to offer advice to new grads in software because I never was one. I never studied CS, never had a programming class, and didn&#39;t take a software job until I was skilled enough where I was being handed independent projects and half project managing to start.</span>
+
+                </div>
+
+
+
+                <div class="chatlog__reactions">
+                        <div class="chatlog__reaction">
+                            <img class="emoji emoji--small" alt="GWseremePeepoThink" title="GWseremePeepoThink" src="https://cdn.discordapp.com/emojis/402867838580293643.png" />
+                            <span class="chatlog__reaction-count">1</span>
+                        </div>
+                </div>
+            </div>
+            <div class="chatlog__message " data-message-id="749442398320459856" id="message-749442398320459856">
+                <div class="chatlog__content">
+                    <span class="markdown"><strong>madhadron:</strong> Maybe, don&#39;t be afraid to ask stupid questions? If you don&#39;t understand it, probably someone else in the room doesn&#39;t either.</span>
+
+                </div>
+
+
+
+                <div class="chatlog__reactions">
+                        <div class="chatlog__reaction">
+                            <img class="emoji emoji--small" alt="yeet100" title="yeet100" src="https://cdn.discordapp.com/emojis/581556487672037378.gif" />
+                            <span class="chatlog__reaction-count">3</span>
+                        </div>
+                </div>
+            </div>
+            <div class="chatlog__message " data-message-id="749442771588481124" id="message-749442771588481124">
+                <div class="chatlog__content">
+                    <span class="markdown"></span>
+
+                </div>
+
+
+            <div class="chatlog__embed">
+                <div class="chatlog__embed-color-pill" style="background-color: rgba(255,0,255,1)"></div>
+                <div class="chatlog__embed-content-container">
+                    <div class="chatlog__embed-content">
+                        <div class="chatlog__embed-text">
+
+                            <div class="chatlog__embed-title">
+                                <span class="markdown">madhadron is answering SunriseM&#39;s Question:</span>
+                            </div>
+
+                            <div class="chatlog__embed-description"><span class="markdown"><strong>Question:</strong>  Do you regret not focusing on programming as your career instead of working in a such wide range of fields?</span></div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="chatlog__embed-footer">
+                        <img class="chatlog__embed-footer-icon" src="https://cdn.discordapp.com/avatars/208382554892402699/063606ebbb97d6ad3e11b04b8c1ed56d.png" alt="Footer icon" />
+
+                        <span class="chatlog__embed-footer-text">
+                            Asked by SunriseM
+                            
+
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+                <div class="chatlog__reactions">
+                        <div class="chatlog__reaction">
+                            <img class="emoji emoji--small" alt="⭐" title="⭐" src="https://twemoji.maxcdn.com/2/72x72/2b50.png" />
+                            <span class="chatlog__reaction-count">2</span>
+                        </div>
+                </div>
+            </div>
+            <div class="chatlog__message " data-message-id="749442772062306445" id="message-749442772062306445">
+                <div class="chatlog__content">
+                    <span class="markdown"><strong>madhadron:</strong> Absolutely not! Even now I work on a huge range of stuff in my own time. I&#39;ve got books queued up on Italian medieval history, developmental biology in the Cambrian explosion, studies of short form in English poetry...</span>
+
+                </div>
+
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="749442822133907457" id="message-749442822133907457">
+                <div class="chatlog__content">
+                    <span class="markdown"><strong>madhadron:</strong> I have made much of my career off what I jokingly call &quot;intellectual arbitrage.&quot;</span>
+
+                </div>
+
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="749442969698041896" id="message-749442969698041896">
+                <div class="chatlog__content">
+                    <span class="markdown"><strong>madhadron:</strong> And when you get bogged down in one field and it&#39;s not fun, you just go pick something else up.</span>
+
+                </div>
+
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="749443060449935450" id="message-749443060449935450">
+                <div class="chatlog__content">
+                    <span class="markdown"><strong>madhadron:</strong> There are lots of people like me. David Epstein&#39;s book &#39;Range&#39; pointed that out, which was nice.</span>
+
+                </div>
+
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="749443201496121424" id="message-749443201496121424">
+                <div class="chatlog__content">
+                    <span class="markdown"><strong>madhadron:</strong> You also get a sense of what is fundamental and what is not as you dig into a field. A feel for &quot;this is fluff and ephemeral&quot; versus &quot;this will last me at least a decade.&quot; And you learn to avoid the former.</span>
+
+                </div>
+
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="749443313425186866" id="message-749443313425186866">
+                <div class="chatlog__content">
+                    <span class="markdown"></span>
+
+                </div>
+
+
+            <div class="chatlog__embed">
+                <div class="chatlog__embed-color-pill" style="background-color: rgba(255,0,255,1)"></div>
+                <div class="chatlog__embed-content-container">
+                    <div class="chatlog__embed-content">
+                        <div class="chatlog__embed-text">
+
+                            <div class="chatlog__embed-title">
+                                <span class="markdown">madhadron is answering speckledlemon&#39;s Question:</span>
+                            </div>
+
+                            <div class="chatlog__embed-description"><span class="markdown"><strong>Question:</strong>  You have experience with a lot of...atypical languages. It&#39;s pretty to common to read that &quot;learning (FP/stack-based/other less common paradigm) really changed how I think about problem solving on a regular basis&quot;. Do you find that&#39;s personally true, and if so, could you give a concrete example?</span></div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="chatlog__embed-footer">
+                        <img class="chatlog__embed-footer-icon" src="https://cdn.discordapp.com/avatars/392135911649050625/be5ed6d9931ad240a75d0128a029c2ba.png" alt="Footer icon" />
+
+                        <span class="chatlog__embed-footer-text">
+                            Asked by speckledlemon
+                            
+
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+                <div class="chatlog__reactions">
+                        <div class="chatlog__reaction">
+                            <img class="emoji emoji--small" alt="⭐" title="⭐" src="https://twemoji.maxcdn.com/2/72x72/2b50.png" />
+                            <span class="chatlog__reaction-count">2</span>
+                        </div>
+                </div>
+            </div>
+            <div class="chatlog__message " data-message-id="749443314087886858" id="message-749443314087886858">
+                <div class="chatlog__content">
+                    <span class="markdown"><strong>madhadron:</strong> I&#39;m a terrible, terrible person to ask that question of, because I learned C, SQL, Forth, and Standard ML at around the same time.</span>
+
+                </div>
+
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="749443639683317830" id="message-749443639683317830">
+                <div class="chatlog__content">
+                    <span class="markdown"><strong>madhadron:</strong> So I have designed data structures in Hindley-Milnor type systems like Standard ML and Haskell since I was a teenager and translated them into other languages. I&#39;ve modelled data relationally and then recast it into objects or vice versa.</span>
+
+                </div>
+
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="749443889345200139" id="message-749443889345200139">
+                <div class="chatlog__content">
+                    <span class="markdown"><strong>madhadron:</strong> I think the biggest impact is that I reach for what I think the most incisive tool I can for a task is, ignoring whatever else is there, and then translate back out of it. My classmates in physics used to refer to this as &quot;math hammers&quot; because I would bring out crazy stuff to demolish integrals and the like.</span>
+
+                </div>
+
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="749444101203558491" id="message-749444101203558491">
+                <div class="chatlog__content">
+                    <span class="markdown"></span>
+
+                </div>
+
+
+            <div class="chatlog__embed">
+                <div class="chatlog__embed-color-pill" style="background-color: rgba(255,0,255,1)"></div>
+                <div class="chatlog__embed-content-container">
+                    <div class="chatlog__embed-content">
+                        <div class="chatlog__embed-text">
+
+                            <div class="chatlog__embed-title">
+                                <span class="markdown">madhadron is answering Gloat&#39;s Question:</span>
+                            </div>
+
+                            <div class="chatlog__embed-description"><span class="markdown"><strong>Question:</strong>  Do you think starting and being successful in the software field requires starting &lt; 30yrs of age?</span></div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="chatlog__embed-footer">
+                        <img class="chatlog__embed-footer-icon" src="https://cdn.discordapp.com/avatars/306163543311646721/b25911aa5f717dd1782f0a287f6833fe.png" alt="Footer icon" />
+
+                        <span class="chatlog__embed-footer-text">
+                            Asked by Gloat
+                            
+
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+                <div class="chatlog__reactions">
+                        <div class="chatlog__reaction">
+                            <img class="emoji emoji--small" alt="⭐" title="⭐" src="https://twemoji.maxcdn.com/2/72x72/2b50.png" />
+                            <span class="chatlog__reaction-count">5</span>
+                        </div>
+                </div>
+            </div>
+            <div class="chatlog__message " data-message-id="749444101648285707" id="message-749444101648285707">
+                <div class="chatlog__content">
+                    <span class="markdown"><strong>madhadron:</strong> No. I have a friend who is an amazing applied mathematician. He left Boeing and did some time at Tableau in his early 40&#39;s as a software engineer. Then went and did other things.</span>
+
+                </div>
+
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="749444382989484093" id="message-749444382989484093">
+                <div class="chatlog__content">
+                    <span class="markdown"></span>
+
+                </div>
+
+
+            <div class="chatlog__embed">
+                <div class="chatlog__embed-color-pill" style="background-color: rgba(255,0,255,1)"></div>
+                <div class="chatlog__embed-content-container">
+                    <div class="chatlog__embed-content">
+                        <div class="chatlog__embed-text">
+
+                            <div class="chatlog__embed-title">
+                                <span class="markdown">madhadron is answering speckledlemon&#39;s Question:</span>
+                            </div>
+
+                            <div class="chatlog__embed-description"><span class="markdown"><strong>Question:</strong>  Since you&#39;ve mentioned Baroque violin, can you give a little summary of what that part of your career was like?</span></div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="chatlog__embed-footer">
+                        <img class="chatlog__embed-footer-icon" src="https://cdn.discordapp.com/avatars/392135911649050625/be5ed6d9931ad240a75d0128a029c2ba.png" alt="Footer icon" />
+
+                        <span class="chatlog__embed-footer-text">
+                            Asked by speckledlemon
+                            
+
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+                <div class="chatlog__reactions">
+                        <div class="chatlog__reaction">
+                            <img class="emoji emoji--small" alt="⭐" title="⭐" src="https://twemoji.maxcdn.com/2/72x72/2b50.png" />
+                            <span class="chatlog__reaction-count">5</span>
+                        </div>
+                </div>
+            </div>
+            <div class="chatlog__message " data-message-id="749444383539200020" id="message-749444383539200020">
+                <div class="chatlog__content">
+                    <span class="markdown"><strong>madhadron:</strong> So I&#39;ve played violin since I was four years old. My parents played mostly early music recordings around the house (Christopher Hogwood and the like), so I grew up with Baroque as my native musical idiom.</span>
+
+                </div>
+
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="749444479743819857" id="message-749444479743819857">
+                <div class="chatlog__content">
+                    <span class="markdown"><strong>madhadron:</strong> When I got to university I found that I didn&#39;t much like the orchestra. Too regimented, and I didn&#39;t like romantic music much.</span>
+
+                </div>
+
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="749444567891443725" id="message-749444567891443725">
+                <div class="chatlog__content">
+                    <span class="markdown"><strong>madhadron:</strong> But I found a home in the early music ensemble. We used to joke that it was where you went if you were too weird for the orchestra. A lot of physics and math majors...</span>
+
+                </div>
+
+
+
+                <div class="chatlog__reactions">
+                        <div class="chatlog__reaction">
+                            <img class="emoji emoji--small" alt="HYPERCLAP" title="HYPERCLAP" src="https://cdn.discordapp.com/emojis/589554452696924190.gif" />
+                            <span class="chatlog__reaction-count">14</span>
+                        </div>
+                </div>
+            </div>
+            <div class="chatlog__message " data-message-id="749444724137525390" id="message-749444724137525390">
+                <div class="chatlog__content">
+                    <span class="markdown"><strong>madhadron:</strong> We did our concerts at the school, and we would sometimes go out and fill in for professionals in the area since there isn&#39;t exactly a huge early music scene in that part of the country.</span>
+
+                </div>
+
+
+
+            </div>
+            <div class="chatlog__message " data-message-id="749444823907434566" id="message-749444823907434566">
+                <div class="chatlog__content">
+                    <span class="markdown"><strong>madhadron:</strong> When I started grad school that all fell by the wayside, though I continued to do some historic dance reconstruction.</span>
+
+                </div>
+
+
+
+            </div>
+    </div>
+</div>
+</div>
+
+<div class="postamble">
+    <div class="postamble__entry">Exported 80 message(s)</div>
+</div>
+
+</body>
+</html>

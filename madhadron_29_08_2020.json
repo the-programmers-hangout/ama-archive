@@ -1,0 +1,2131 @@
+{
+  "guild": {
+    "id": "244230771232079873",
+    "name": "The Programmer\u0027s Hangout",
+    "iconUrl": "https://cdn.discordapp.com/icons/244230771232079873/a_34da0ee46c9ed9799a636a976c896361.png"
+  },
+  "channel": {
+    "id": "749431771468136499",
+    "type": "GuildTextChat",
+    "name": "madhadron",
+    "topic": null
+  },
+  "dateRange": {
+    "after": null,
+    "before": null
+  },
+  "messages": [
+    {
+      "id": "749433598607884298",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:01:33.711+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "madhadron is answering Elliott\u0027s Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**  If you could go back in time give young Madhadron a single piece of career advice, what would it be?",
+          "footer": {
+            "text": "Asked by Elliott",
+            "iconUrl": "https://cdn.discordapp.com/avatars/335628039302021121/a_30232e21b6efa0e86b0b107b56f0af71.gif"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "\u2B50",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "749433599303876619",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:01:33.877+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "**madhadron:** Be kinder.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "\u2764\uFE0F",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2764.png"
+          },
+          "count": 16
+        },
+        {
+          "emoji": {
+            "id": "408280788749254658",
+            "name": "GWjiangLoveHeart",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/408280788749254658.png"
+          },
+          "count": 9
+        }
+      ]
+    },
+    {
+      "id": "749433776668672120",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:02:16.164+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "**madhadron:** I was a pretty harsh human being for many years, to the point were coworkers didn\u0027t want to give talks in front of me.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": []
+    },
+    {
+      "id": "749433820532572290",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:02:26.622+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "**madhadron:** I uttered the phrase \u0022I\u0027m not paid to be nice, I\u0027m paid to be right\u0022 too many times.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": []
+    },
+    {
+      "id": "749434001307205735",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:03:09.722+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "**madhadron:** But there was no reason for it in most cases. Everything I was aiming for could have been accomplished more easily and more permanently with kindness.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": []
+    },
+    {
+      "id": "749434426353778840",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:04:51.061+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "madhadron is answering beerpsi\u0027s Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**  What is the biggest change of mind you have ever got?",
+          "footer": {
+            "text": "Asked by beerpsi",
+            "iconUrl": "https://cdn.discordapp.com/avatars/249377596691709954/a_335b1c721b916e6466aa478f53529899.gif"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "\u2B50",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "749434427175862422",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:04:51.257+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "**madhadron:** When I started university (in physics), I was focused on \u0022how do I derive this from first principles?\u0022 It took a lot of years of study before I realized that was really backwards. The experiments are the fundamental thing. The mathematical structures are summaries of those, images cast in the mirror.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": []
+    },
+    {
+      "id": "749434711243489320",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:05:58.984+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "**madhadron:** So when I was asking how to derive this from first principles, looking for axioms, it was the wrong question. The right one was what is the collection of experimental data this is summarizing and what idealizations have we made to get our mathematical shadow of it.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": []
+    },
+    {
+      "id": "749434875010089031",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:06:38.029+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "madhadron is answering speckledlemon\u0027s Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**  Why did you decide to leave science and go into pure software development?",
+          "footer": {
+            "text": "Asked by speckledlemon",
+            "iconUrl": "https://cdn.discordapp.com/avatars/392135911649050625/be5ed6d9931ad240a75d0128a029c2ba.png"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "\u2B50",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "749434875597291601",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:06:38.169+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "**madhadron:** Ah, this one. So I actually started out in software before university, and then went into physics. I spent a decade training to be a scientist.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": []
+    },
+    {
+      "id": "749434945130463253",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:06:54.747+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "**madhadron:** It took me that long to realize that I am, by temperment, an engineer, not a scientist.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": []
+    },
+    {
+      "id": "749435065955516477",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:07:23.554+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "**madhadron:** When I\u0027ve cobbled an experiment together to get a result, my first thought isn\u0027t, \u0022Right, next experiment.\u0022 It\u0027s \u0022how do I make this repeatable at the press of the button for the next hundred people?\u0022",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "720059778495414322",
+            "name": "p_cool",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/720059778495414322.png"
+          },
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "749435164232253450",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:07:46.985+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "**madhadron:** This is great if you\u0027re a software engineer, not so good if you\u0027re a scientist.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": []
+    },
+    {
+      "id": "749435468390727700",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:08:59.502+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "madhadron is answering Clue\u0027s Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**  You mention that coaching was an enormous help to you. How do you tell a good coach from a bad coach, specifically in computer science?",
+          "footer": {
+            "text": "Asked by Clue",
+            "iconUrl": "https://cdn.discordapp.com/avatars/458005360939368468/2859fd8794730b075563194cf4abce71.png"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "\u2B50",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "749435468587728969",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:08:59.549+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "**madhadron:** Oh, this is a good one. Umm...so the three people I directly dealt with that coached or mentored me in CS in my teens were my old boss (now deceased), a professional software engineer who specialized in enterprise IT systems on Windows and a grad student in programming languages.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": []
+    },
+    {
+      "id": "749435513030574172",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:09:10.145+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "**madhadron:** The latter two were folks I knew from my IRC Dungeons \u0026 Dragons groups.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": []
+    },
+    {
+      "id": "749435551660113980",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:09:19.355+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "**madhadron:** I\u0027ve never met them in person, never knew their real names.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": []
+    },
+    {
+      "id": "749435883140284486",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:10:38.386+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "**madhadron:** I would say that a good coach is one that points you in directions that change your thinking in ways that make you nontrivially more powerful, that makes you feel excited about the subject, and that can concisely orient you in the landscape that you\u0027re groping around.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": []
+    },
+    {
+      "id": "749436086345924660",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:11:26.834+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "**madhadron:** It needn\u0027t be purely technical things. I have had young engineers claim that a simple explanation about incentives and company politics changed their lives, or explaining cash flow and businesses. But models that le them interpret previously vague or invisible parts of their world.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": []
+    },
+    {
+      "id": "749436401501864008",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:12:41.973+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "madhadron is answering EELI\u0027s Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**  Were there any books / resources that you would consider particularly important in your development as a programmer?",
+          "footer": {
+            "text": "Asked by EELI",
+            "iconUrl": "https://cdn.discordapp.com/avatars/109822462455246848/242e3188b3079146e1ed89836541ecc7.png"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "\u2B50",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "749436402395119708",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:12:42.186+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "**madhadron:** Lots and lots. I spent a lot of time with both Alan Kay and EW Dijkstra\u0027s works. They\u0027re diametric opposites, but there\u0027s a character to their thinking (Kay called it \u0022playing it grand\u0022) that both share, and working through the mental dissonance of these two utterly different approaches was revealing.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": []
+    },
+    {
+      "id": "749436531776946216",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:13:13.033+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "**madhadron:** In terms of books, I would say Leo Brodie\u0027s Starting Forth and Thinking Forth and Ullman\u0027s Elements of Standard ML were the most influential books that I remember.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": []
+    },
+    {
+      "id": "749436729995558923",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:14:00.292+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "**madhadron:** I also spent a lot of time looking into the history of the field, reading accounts from people who designed or worked on Burroughs machines or NeWS at Sun or lots of other stuff. That kind of oral history contains most of the \u0022why\u0022 of our field, and I think it\u0027s vastly underappreciated.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": []
+    },
+    {
+      "id": "749437087811371049",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:15:25.602+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "madhadron is answering trout \uD83D\uDC1F\u0027s Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**  When you took a dive into the world of cosmosdb, did you have any existing specialties in databases or did you get deeper into that kind of knowledge \u201Con the job\u201D?",
+          "footer": {
+            "text": "Asked by trout \uD83D\uDC1F",
+            "iconUrl": "https://cdn.discordapp.com/avatars/369748885968781313/009ae1713a25dea8eaaf13657b91341f.png"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "\u2B50",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "749437088742768710",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:15:25.824+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "**madhadron:** Ha! I went from being the owner of Facebook\u0027s main ads database to CosmosDB. I had written Facebook\u0027s large scale systems class for new hires and was regarded as part of the MySQL core team in all but official org chart. So, yes, databases were a thing for me.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "639507969498677258",
+            "name": "PogU",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/639507969498677258.png"
+          },
+          "count": 15
+        }
+      ]
+    },
+    {
+      "id": "749437347665543209",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:16:27.556+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "**madhadron:** Databases are one of those things that I\u0027ve been doing in some form since the 1990\u0027s, so I was quite proximate when that\u0027s what needed diving into and I became a specialist.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": []
+    },
+    {
+      "id": "749437578910105622",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:17:22.689+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "**madhadron:** Now, I don\u0027t know any of these databases the way that some of Facebook\u0027s guys knew MySQL. They were amazing, could tell you every lock taken in the code and diagnose things that were like black magic even to me.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "402867838580293643",
+            "name": "GWseremePeepoThink",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/402867838580293643.png"
+          },
+          "count": 6
+        }
+      ]
+    },
+    {
+      "id": "749437837220511795",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:18:24.275+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "madhadron is answering Dioxin\u0027s Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**  Other than Discord, what are some mediums you use for teaching programming? (for example: Stack Exchange, HackHands, etc..)",
+          "footer": {
+            "text": "Asked by Dioxin",
+            "iconUrl": "https://cdn.discordapp.com/embed/avatars/3.png"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "\u2B50",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "749437838277214303",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:18:24.527+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "**madhadron:** Aside from being everyone\u0027s crazy uncle on Discord, I mostly teach one on one. Right now I\u0027m using USE Engine and VSCode to teach a friend\u0027s daughter. Otherwise it tends to be in person. If it weren\u0027t for covid, I\u0027d be teaching my current student in person, too.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": []
+    },
+    {
+      "id": "749437912155684914",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:18:42.141+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "**madhadron:** I write for my website a lot. I guess that\u0027s the other major medium.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": []
+    },
+    {
+      "id": "749438318248460338",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:20:18.961+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "madhadron is answering Kemikals\u0027s Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**  I also received a lot of invaluable coaching via IRC in the 90\u0027s and early 2000\u0027s, do you feel that discord or other chat mediums provide in the same way that IRC used to?",
+          "footer": {
+            "text": "Asked by Kemikals",
+            "iconUrl": "https://cdn.discordapp.com/avatars/255737305891864577/7cc25dd28802e51b7f3edc021e243642.png"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "\u2B50",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "749438318810497065",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:20:19.095+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "**madhadron:** I have found that the medium is less important than the individual cultures and milieus within the medium. There are Discords that are dead or are horrible. There are super functional ones, such as TPH and a wonderful writer\u0027s chat I know. The same was true for IRC. My IRC life centered around a very functional, close knit #adnd on Dalnet back in the day (long gone now).",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": []
+    },
+    {
+      "id": "749438377589342310",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:20:33.109+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "**madhadron:** I\u0027ve also found incredibly functional cultures on email lists, and completely broken ones.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": []
+    },
+    {
+      "id": "749438540596641892",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:21:11.973+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "**madhadron:** The biggest thing is having a critical mass of core people who share expectations about how things operate and ops/admins who can enforce those.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": []
+    },
+    {
+      "id": "749439068911304775",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:23:17.933+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "madhadron is answering haekuh\u0027s Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**  with all your experience in various languages, and architecture, how do you feel about rust? Do you think it will take over from Java/C\u002B\u002B(eventually)?",
+          "footer": {
+            "text": "Asked by haekuh",
+            "iconUrl": "https://cdn.discordapp.com/avatars/137996034616983552/6d647243d03e0387c0b8715612b1ef38.png"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "\u2B50",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "749439069175414885",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:23:17.996+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "**madhadron:** I truly don\u0027t know. If it gets traction as a major language inside somewhere like Facebook, perhaps it could. I have observed that programming languages tend to prosper or disappear for reasons that are largely incidental to their design.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": []
+    },
+    {
+      "id": "749439489364983908",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:24:58.177+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "madhadron is answering travisk_says\u0027s Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**  What formulation (i.e. interpretation) of quantum mechanics has your highest baysian prior (i.e. most likely correct)?",
+          "footer": {
+            "text": "Asked by travisk_says",
+            "iconUrl": "https://cdn.discordapp.com/avatars/656948986867089423/a_36d27a86c01991d00cddbd7a813afce9.gif"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "\u2B50",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "749439490283536544",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:24:58.396+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "**madhadron:** Well, I\u0027m convinced that it is nonlocal and quantum states are ontic. I have yet to find a collapse scheme that has seemed like an utter hack. So I seem to be falling back to Everettian more and more just because nothing in it bothers me.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDC4C",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f44c.png"
+          },
+          "count": 3
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDCAF",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f4af.png"
+          },
+          "count": 3
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDF0D",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f30d.png"
+          },
+          "count": 3
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDF0E",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f30e.png"
+          },
+          "count": 4
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDF0F",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f30f.png"
+          },
+          "count": 3
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83E\uDD2E",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f92e.png"
+          },
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "749439774451826748",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:26:06.147+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "madhadron is answering iWillBanU\u0027s Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**  What lead you to joining this server?",
+          "footer": {
+            "text": "Asked by iWillBanU",
+            "iconUrl": "https://cdn.discordapp.com/avatars/474016258019557377/0e6f10b460a50ee8f848ebf9ad655739.png"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "\u2B50",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "749439775047680150",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:26:06.289+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "**madhadron:** A degree of loneliness. I had been very involved in a martial arts mailing list for some years, and was kind of wandering around looking for something to fill that gap of a virtual community.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "408280788749254658",
+            "name": "GWjiangLoveHeart",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/408280788749254658.png"
+          },
+          "count": 12
+        },
+        {
+          "emoji": {
+            "id": "585543781651185693",
+            "name": "hearts",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/585543781651185693.gif"
+          },
+          "count": 10
+        },
+        {
+          "emoji": {
+            "id": "717882286477017138",
+            "name": "blobhearts",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/717882286477017138.gif"
+          },
+          "count": 8
+        },
+        {
+          "emoji": {
+            "id": "593050160196616193",
+            "name": "blinking",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/593050160196616193.png"
+          },
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "749439972351803443",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:26:53.33+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "madhadron is answering spirit_warriors\u0027s Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**  What kind of non-technical skills have helped you as your time in programming/software development?",
+          "footer": {
+            "text": "Asked by spirit_warriors",
+            "iconUrl": "https://cdn.discordapp.com/avatars/185225168195551232/b5601302cef9bccd759cabf409a72087.png"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "\u2B50",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "749439973165498428",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:26:53.524+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "**madhadron:** Planning and organization, certainly. I\u0027ve been operating an implementation of David Allen\u0027s \u0027Getting Things Done\u0027 since 2002, which makes me one of its longest running practitioners, as far as I know.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": []
+    },
+    {
+      "id": "749440113913888808",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:27:27.081+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "**madhadron:** The ability to lighten a conversation, to make people around me smile has been critical, I think.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": []
+    },
+    {
+      "id": "749440288317112451",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:28:08.662+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "**madhadron:** Speaking and writing well are useful. Being able to read critically and accurately is essential.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": []
+    },
+    {
+      "id": "749440490809589783",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:28:56.94+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "**madhadron:** And just being able to listen to someone and lead them out until I understand what they\u0027re saying, and then trying to help them as well as I can.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": []
+    },
+    {
+      "id": "749440633659457546",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:29:30.998+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "madhadron is answering travisk_says\u0027s Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**  What is your favorite mathmatical object/field of study?",
+          "footer": {
+            "text": "Asked by travisk_says",
+            "iconUrl": "https://cdn.discordapp.com/avatars/656948986867089423/a_36d27a86c01991d00cddbd7a813afce9.gif"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "\u2B50",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": "749440634284277830",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:29:31.147+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "**madhadron:** I\u0027m *not* going to say spinors, because SO(3) is like crack cocaine to my brain. I know I\u0027m in a bad place if I pull those out.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": []
+    },
+    {
+      "id": "749440756699234407",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:30:00.333+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "**madhadron:** I feel like my favorite ones are probably semigroups and semilattices for the sheer amount of organization of my world I get from them.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": []
+    },
+    {
+      "id": "749440976178905118",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:30:52.661+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "madhadron is answering phoenix\u0027s Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**  Out of all the languages you\u0027ve worked with, which one is your favourite?",
+          "footer": {
+            "text": "Asked by phoenix",
+            "iconUrl": "https://cdn.discordapp.com/avatars/187510439066730496/244bef7eb89dc9ff47bb2bda8f87192a.png"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "\u2B50",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "749440976472375359",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:30:52.731+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "**madhadron:** None of the above. I categorize languages by what I loathe about each of them.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "657311422878842918",
+            "name": "lol",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/657311422878842918.png"
+          },
+          "count": 16
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDE0E",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f60e.png"
+          },
+          "count": 7
+        },
+        {
+          "emoji": {
+            "id": "479088106939613184",
+            "name": "this",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/479088106939613184.gif"
+          },
+          "count": 6
+        }
+      ]
+    },
+    {
+      "id": "749441089555136606",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:31:19.692+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "madhadron is answering spirit_warriors\u0027s Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**  What personal characteristics do you believe are helpful for success in your field?",
+          "footer": {
+            "text": "Asked by spirit_warriors",
+            "iconUrl": "https://cdn.discordapp.com/avatars/185225168195551232/b5601302cef9bccd759cabf409a72087.png"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "\u2B50",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "749441090507112459",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:31:19.919+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "**madhadron:** I have seen so many different people and so many different paths that I rather hesitate to try to guess.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": []
+    },
+    {
+      "id": "749441159255818261",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:31:36.31+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "**madhadron:** We all have different paths, sometimes very different.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": []
+    },
+    {
+      "id": "749441406921342976",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:32:35.358+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "**madhadron:** I have seen assholes thrive and those who care deeply for those around them. I\u0027ve seen vague, big picture thinkers throwing code at the wall do amazing things and people with utterly precise minds.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": []
+    },
+    {
+      "id": "749441536499908729",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:33:06.252+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "**madhadron:** I guess the sole thing is the ability to communicate and collaborate. We\u0027re all in over our heads. Our brains weren\u0027t evolved for this and we need help.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "582075549883564032",
+            "name": "internalscreaming",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/582075549883564032.png"
+          },
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "749441764578033684",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:34:00.63+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "madhadron is answering spirit_warriors\u0027s Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**  What is most rewarding about your job? What is the most difficult thing?",
+          "footer": {
+            "text": "Asked by spirit_warriors",
+            "iconUrl": "https://cdn.discordapp.com/avatars/185225168195551232/b5601302cef9bccd759cabf409a72087.png"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "\u2B50",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "749441765144002711",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:34:00.765+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "**madhadron:** So this is a bit nuanced. I have avoided becoming a manager, because the day to day production of code is a source of base contentment. Feynman described something similar how he didn\u0027t want a position without teaching because you had something that you were supposed to show up and do and you could succeed at even if your other work was a giant burning mess.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": []
+    },
+    {
+      "id": "749441869402079272",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:34:25.622+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "**madhadron:** I don\u0027t like spending all my time down a coding rabbit hole anymore, and I know it\u0027s not healthy for my mental state (again, people vary).",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": []
+    },
+    {
+      "id": "749442010565574736",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:34:59.278+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "**madhadron:** After that I take enormous satisfaction in mentoring and teaching and helping my colleagues talk through things. I am, to the shock of many that know me, a people person.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": []
+    },
+    {
+      "id": "749442236147695696",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:35:53.061+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "madhadron is answering infinity\u0027s Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**  What\u0027s one piece, or two, of advice you can offer a new grad who lacks experience; whether the advice is technical, personality, anything.\n\nPerhaps better phrasing would be, what are one or two things (not limited ofc) you believe has helped you throughout your career and in life for that matter?",
+          "footer": {
+            "text": "Asked by infinity",
+            "iconUrl": "https://cdn.discordapp.com/avatars/108379014145511424/4418beed4fc9deaa2bdabe4e8cce9b0c.png"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "\u2B50",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "749442236361474119",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:35:53.112+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "**madhadron:** I really, really hesitate to offer advice to new grads in software because I never was one. I never studied CS, never had a programming class, and didn\u0027t take a software job until I was skilled enough where I was being handed independent projects and half project managing to start.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "402867838580293643",
+            "name": "GWseremePeepoThink",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/402867838580293643.png"
+          },
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "749442398320459856",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:36:31.726+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "**madhadron:** Maybe, don\u0027t be afraid to ask stupid questions? If you don\u0027t understand it, probably someone else in the room doesn\u0027t either.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "581556487672037378",
+            "name": "yeet100",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/581556487672037378.gif"
+          },
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "749442771588481124",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:38:00.72+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "madhadron is answering SunriseM\u0027s Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**  Do you regret not focusing on programming as your career instead of working in a such wide range of fields?",
+          "footer": {
+            "text": "Asked by SunriseM",
+            "iconUrl": "https://cdn.discordapp.com/avatars/208382554892402699/063606ebbb97d6ad3e11b04b8c1ed56d.png"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "\u2B50",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "749442772062306445",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:38:00.833+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "**madhadron:** Absolutely not! Even now I work on a huge range of stuff in my own time. I\u0027ve got books queued up on Italian medieval history, developmental biology in the Cambrian explosion, studies of short form in English poetry...",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": []
+    },
+    {
+      "id": "749442822133907457",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:38:12.771+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "**madhadron:** I have made much of my career off what I jokingly call \u0022intellectual arbitrage.\u0022",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": []
+    },
+    {
+      "id": "749442969698041896",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:38:47.953+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "**madhadron:** And when you get bogged down in one field and it\u0027s not fun, you just go pick something else up.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": []
+    },
+    {
+      "id": "749443060449935450",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:39:09.59+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "**madhadron:** There are lots of people like me. David Epstein\u0027s book \u0027Range\u0027 pointed that out, which was nice.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": []
+    },
+    {
+      "id": "749443201496121424",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:39:43.218+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "**madhadron:** You also get a sense of what is fundamental and what is not as you dig into a field. A feel for \u0022this is fluff and ephemeral\u0022 versus \u0022this will last me at least a decade.\u0022 And you learn to avoid the former.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": []
+    },
+    {
+      "id": "749443313425186866",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:40:09.904+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "madhadron is answering speckledlemon\u0027s Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**  You have experience with a lot of...atypical languages. It\u0027s pretty to common to read that \u0022learning (FP/stack-based/other less common paradigm) really changed how I think about problem solving on a regular basis\u0022. Do you find that\u0027s personally true, and if so, could you give a concrete example?",
+          "footer": {
+            "text": "Asked by speckledlemon",
+            "iconUrl": "https://cdn.discordapp.com/avatars/392135911649050625/be5ed6d9931ad240a75d0128a029c2ba.png"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "\u2B50",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "749443314087886858",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:40:10.062+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "**madhadron:** I\u0027m a terrible, terrible person to ask that question of, because I learned C, SQL, Forth, and Standard ML at around the same time.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": []
+    },
+    {
+      "id": "749443639683317830",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:41:27.69+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "**madhadron:** So I have designed data structures in Hindley-Milnor type systems like Standard ML and Haskell since I was a teenager and translated them into other languages. I\u0027ve modelled data relationally and then recast it into objects or vice versa.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": []
+    },
+    {
+      "id": "749443889345200139",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:42:27.214+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "**madhadron:** I think the biggest impact is that I reach for what I think the most incisive tool I can for a task is, ignoring whatever else is there, and then translate back out of it. My classmates in physics used to refer to this as \u0022math hammers\u0022 because I would bring out crazy stuff to demolish integrals and the like.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": []
+    },
+    {
+      "id": "749444101203558491",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:43:17.725+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "madhadron is answering Gloat\u0027s Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**  Do you think starting and being successful in the software field requires starting \u003C 30yrs of age?",
+          "footer": {
+            "text": "Asked by Gloat",
+            "iconUrl": "https://cdn.discordapp.com/avatars/306163543311646721/b25911aa5f717dd1782f0a287f6833fe.png"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "\u2B50",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "749444101648285707",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:43:17.831+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "**madhadron:** No. I have a friend who is an amazing applied mathematician. He left Boeing and did some time at Tableau in his early 40\u0027s as a software engineer. Then went and did other things.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": []
+    },
+    {
+      "id": "749444382989484093",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:44:24.908+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "madhadron is answering speckledlemon\u0027s Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**  Since you\u0027ve mentioned Baroque violin, can you give a little summary of what that part of your career was like?",
+          "footer": {
+            "text": "Asked by speckledlemon",
+            "iconUrl": "https://cdn.discordapp.com/avatars/392135911649050625/be5ed6d9931ad240a75d0128a029c2ba.png"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "\u2B50",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "749444383539200020",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:44:25.039+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "**madhadron:** So I\u0027ve played violin since I was four years old. My parents played mostly early music recordings around the house (Christopher Hogwood and the like), so I grew up with Baroque as my native musical idiom.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": []
+    },
+    {
+      "id": "749444479743819857",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:44:47.976+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "**madhadron:** When I got to university I found that I didn\u0027t much like the orchestra. Too regimented, and I didn\u0027t like romantic music much.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": []
+    },
+    {
+      "id": "749444567891443725",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:45:08.992+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "**madhadron:** But I found a home in the early music ensemble. We used to joke that it was where you went if you were too weird for the orchestra. A lot of physics and math majors...",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "589554452696924190",
+            "name": "HYPERCLAP",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/589554452696924190.gif"
+          },
+          "count": 14
+        }
+      ]
+    },
+    {
+      "id": "749444724137525390",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:45:46.244+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "**madhadron:** We did our concerts at the school, and we would sometimes go out and fill in for professionals in the area since there isn\u0027t exactly a huge early music scene in that part of the country.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": []
+    },
+    {
+      "id": "749444823907434566",
+      "type": "Default",
+      "timestamp": "2020-08-30T02:46:10.031+01:00",
+      "timestampEdited": null,
+      "isPinned": false,
+      "content": "**madhadron:** When I started grad school that all fell by the wayside, though I continued to do some historic dance reconstruction.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": []
+    }
+  ],
+  "messageCount": 80
+}
