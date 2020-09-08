@@ -12,3 +12,4 @@ View these online:
 - [Elliott](https://the-programmers-hangout.github.io/ama-archive/Elliott_03_14_2020.html)
 - [Haekuh](https://the-programmers-hangout.github.io/ama-archive/Haekuh_05_01_2020.html)
 - [Toby Larone](https://the-programmers-hangout.github.io/ama-archive/Toby_Larone_05_16_2020.html)
+- [Madhadron](https://the-programmers-hangout.github.io/ama-archive/madhadron_29_08_2020.html)
