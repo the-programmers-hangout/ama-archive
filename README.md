@@ -13,3 +13,4 @@ View these online:
 - [Haekuh](https://the-programmers-hangout.github.io/ama-archive/Haekuh_05_01_2020.html)
 - [Toby Larone](https://the-programmers-hangout.github.io/ama-archive/Toby_Larone_05_16_2020.html)
 - [Madhadron](https://the-programmers-hangout.github.io/ama-archive/madhadron_29_08_2020.html)
+- [Bosco](https://the-programmers-hangout.github.io/ama-archive/bosco_05_03_2021.html)
