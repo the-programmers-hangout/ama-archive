@@ -1,0 +1,4440 @@
+{
+  "guild": {
+    "id": "244230771232079873",
+    "name": "The Programmer's Hangout",
+    "iconUrl": "https://cdn.discordapp.com/icons/244230771232079873/a_7b187c1d9f1a61d68b1373ab69d79f86.png"
+  },
+  "channel": {
+    "id": "817502477250461706",
+    "type": "GuildTextChat",
+    "category": "\uD83D\uDC80 Archive",
+    "name": "bosco",
+    "topic": null
+  },
+  "dateRange": {
+    "after": null,
+    "before": null
+  },
+  "messages": [
+    {
+      "id": "817504723003113504",
+      "type": "Default",
+      "timestamp": "2021-03-05T21:11:54.467+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Bosco is answering NotZuckerBerg's Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**  What was the resource which contributed to your learning most and looking back at it now would you describe it as viable",
+          "color": "#FF00FF",
+          "footer": {
+            "text": "Asked by NotZuckerBerg",
+            "iconUrl": "https://cdn.discordapp.com/avatars/261904583700381696/9339a9cf0576386e5561eddc88a6945c.png"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "⭐",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 5
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817504727952654356",
+      "type": "Default",
+      "timestamp": "2021-03-05T21:11:55.647+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "**Bosco:** I don't think anyone can follow my exact path to learning, which is completely fine, but people can definitely follow the trends and concepts.  I found an interest in programming at a reasonably young age and continuously learned.  My learning was multiplied when I started asking more questions from people way better than me in various online communities.  There's a lot of theory that goes into Software Engineering but at the end of the day reading and writing code, then learning is the best way in my opinion to improve.  So don't focus on what resource teach you the best, focus on surrounding yourself with people better than you and be open to learning!",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDC4D",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f44d.png"
+          },
+          "count": 9
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "⭐",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 1
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817505356880019496",
+      "type": "Default",
+      "timestamp": "2021-03-05T21:14:25.595+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Bosco is answering jaqq's Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**  Do you *like* working at Facebook? Why/why not?",
+          "color": "#FF00FF",
+          "footer": {
+            "text": "Asked by jaqq",
+            "iconUrl": "https://cdn.discordapp.com/avatars/777515308247547905/a2253f6739b796a0af07d694d5aa5a7c.png"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "⭐",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 5
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDE0E",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f60e.png"
+          },
+          "count": 3
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817505358922252288",
+      "type": "Default",
+      "timestamp": "2021-03-05T21:14:26.082+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "**Bosco:** Yes - I like the interesting problems, I like the people I work with, and I like the autonomy we are given to work.  At my first job, butt-in-seat time was heavily favored over work output, and I pretty much did what I was told for a large part of my time there.  Unfortunately, that style is really demotivating for me so I find the balance is much better here.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "771287728305471528",
+            "name": "petTheCat",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/771287728305471528.gif"
+          },
+          "count": 7
+        },
+        {
+          "emoji": {
+            "id": "759456733474324561",
+            "name": "catWork",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/759456733474324561.gif"
+          },
+          "count": 5
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDC4D",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f44d.png"
+          },
+          "count": 1
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817506309200412683",
+      "type": "Default",
+      "timestamp": "2021-03-05T21:18:12.646+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Bosco is answering HeccinTech's Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**  what was the hardest thing u had to learn the greatest obstacle in life",
+          "color": "#FF00FF",
+          "footer": {
+            "text": "Asked by HeccinTech",
+            "iconUrl": "https://cdn.discordapp.com/avatars/668331059724943380/a_f9118d2b6ba38cbfeeb02164fdbd9c56.gif"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "⭐",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 6
+        },
+        {
+          "emoji": {
+            "id": "661315853526106132",
+            "name": "PepeHmm",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/661315853526106132.gif"
+          },
+          "count": 2
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDD16",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f516.png"
+          },
+          "count": 1
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817506312359379036",
+      "type": "Default",
+      "timestamp": "2021-03-05T21:18:13.399+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "**Bosco:** It's pretty cliche but high school and lower education came very easy to me, and then at the first time of 'hitting a wall' so to speak I felt pretty uncomfortable.  I got over that feeling, and had to learn how to actually put effort in to get the results I wanted.  Ultimately, I think that was for the best - now I know if I'm feeling uncomfortable it's because what I'm doing will cause me to grow and learn.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83E\uDD13",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f913.png"
+          },
+          "count": 4
+        },
+        {
+          "emoji": {
+            "id": "350426514262720514",
+            "name": "blaze",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/350426514262720514.png"
+          },
+          "count": 3
+        },
+        {
+          "emoji": {
+            "id": "754649132152520865",
+            "name": "SCpoggers",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/754649132152520865.gif"
+          },
+          "count": 3
+        },
+        {
+          "emoji": {
+            "id": "728558591728025600",
+            "name": "MilkFocused",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/728558591728025600.png"
+          },
+          "count": 3
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83E\uDD14",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f914.png"
+          },
+          "count": 1
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDD16",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f516.png"
+          },
+          "count": 3
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817507502408204298",
+      "type": "Default",
+      "timestamp": "2021-03-05T21:22:57.129+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Bosco is answering Kibb's Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**  What is your next goal in life?",
+          "color": "#FF00FF",
+          "footer": {
+            "text": "Asked by Kibb",
+            "iconUrl": "https://cdn.discordapp.com/avatars/163403280926375936/a_0e6c6989352658e0ec85ae0b6cd80a3c.gif"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "⭐",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 3
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817507504158146600",
+      "type": "Default",
+      "timestamp": "2021-03-05T21:22:57.546+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "**Bosco:** Learn and grow.  Way down the road I could see myself trying to make my own company, but for now I just like to learn a bunch!",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDD92",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f192.png"
+          },
+          "count": 3
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDC4D",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f44d.png"
+          },
+          "count": 5
+        },
+        {
+          "emoji": {
+            "id": "488809719964762122",
+            "name": "zoop",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/488809719964762122.png"
+          },
+          "count": 6
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDDE7",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f1e7.png"
+          },
+          "count": 3
+        },
+        {
+          "emoji": {
+            "id": "769042591748325376",
+            "name": "blob_thumbs_up",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/769042591748325376.png"
+          },
+          "count": 4
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDDF8",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f1f8.png"
+          },
+          "count": 3
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDDE8",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f1e8.png"
+          },
+          "count": 3
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDDF4",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f1f4.png"
+          },
+          "count": 3
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDD7E️",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f17e.png"
+          },
+          "count": 1
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817508522383245353",
+      "type": "Default",
+      "timestamp": "2021-03-05T21:27:00.31+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Bosco is answering cros's Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**  What are some of the myths about working in an enormous company such as facebook from top of your head that simply are not true?",
+          "color": "#FF00FF",
+          "footer": {
+            "text": "Asked by cros",
+            "iconUrl": "https://cdn.discordapp.com/avatars/372552884866252802/a_da4cd64f65f2e1bf0013b03f65cfd004.gif"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "⭐",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 4
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817508524178538527",
+      "type": "Default",
+      "timestamp": "2021-03-05T21:27:00.738+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "**Bosco:** This might not *fully* answer your question, but I think it's pretty important.  I think one of the biggest myths surrounding big companies is \"If Facebook / Google / ... does X then we should too.\" -> That's not even close to true.  A lot of times the reason these companies do things is because they tried to do the normal way and it literally didn't work at their org size, scale, etc.  I see this pretty often and it's probably been the reason behind a lot of bad decisions in smaller companies.\n\nIf I think of a myth about actually working in the company I will edit this, but I couldn't think of anything.  I think it's a great question though!",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDC4D",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f44d.png"
+          },
+          "count": 11
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "⭐",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 5
+        },
+        {
+          "emoji": {
+            "id": "393575413554741278",
+            "name": "wesmart",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/393575413554741278.gif"
+          },
+          "count": 2
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817509757984178257",
+      "type": "Default",
+      "timestamp": "2021-03-05T21:31:54.9+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Bosco is answering HeccinTech's Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**   do you have any tips for younger people who are trying to land faang jobs in the long haul",
+          "color": "#FF00FF",
+          "footer": {
+            "text": "Asked by HeccinTech",
+            "iconUrl": "https://cdn.discordapp.com/avatars/668331059724943380/a_f9118d2b6ba38cbfeeb02164fdbd9c56.gif"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "⭐",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 1
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817509760327876658",
+      "type": "Default",
+      "timestamp": "2021-03-05T21:31:55.459+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "**Bosco:** I think targeting a specific subset of all the great companies ( where great is relative to what you want out of a company ) is a touch unhealthy.  You're basically saying X or bust, and it puts a ton of pressure on yourself.  Now, if you're trying to learn, and grow yourself as an engineer I would say what I said in a previous answer - continuously learn and improve.  If you can look back 6 months ( maybe even 3 honestly ) and feel like you haven't improved you need to reassess what you're doing.  The field moves fast, and if you're regularly practicing, improving, and learning you should see pretty steady results.  \n\nIf you're already looking at these companies and you're about to start reaching out at the new grad level, pretty much leetcode is the answer.  Strive to be more than a leetcode engineer though \uD83D\uDE09",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "488809719964762122",
+            "name": "zoop",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/488809719964762122.png"
+          },
+          "count": 3
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDE0A",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f60a.png"
+          },
+          "count": 1
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817510043243118603",
+      "type": "Default",
+      "timestamp": "2021-03-05T21:33:02.911+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Bosco is answering HeccinTech's Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**  do you have any pets?",
+          "color": "#FF00FF",
+          "footer": {
+            "text": "Asked by HeccinTech",
+            "iconUrl": "https://cdn.discordapp.com/avatars/668331059724943380/a_f9118d2b6ba38cbfeeb02164fdbd9c56.gif"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "⭐",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 1
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817510048262783017",
+      "type": "Default",
+      "timestamp": "2021-03-05T21:33:04.108+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "**Bosco:** My living situation is pretty volatile and no clue where I wanna live so no I don't have pets.  That being said my parents' pets are basically what I would also call my pets and they have 2 dogs.  Haven't seen them in a couple months which is terrible \uD83D\uDE10",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "674577600131366912",
+            "name": "doge_cry_devcord",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/674577600131366912.png"
+          },
+          "count": 13
+        },
+        {
+          "emoji": {
+            "id": "643548319142117409",
+            "name": "sadkek",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/643548319142117409.png"
+          },
+          "count": 2
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDE14",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f614.png"
+          },
+          "count": 6
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83E\uDEC2",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1fac2.png"
+          },
+          "count": 2
+        },
+        {
+          "emoji": {
+            "id": "711238726365216798",
+            "name": "dogthink",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/711238726365216798.gif"
+          },
+          "count": 3
+        },
+        {
+          "emoji": {
+            "id": "581556528570564629",
+            "name": "PepeHands",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/581556528570564629.png"
+          },
+          "count": 1
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817510359584997396",
+      "type": "Default",
+      "timestamp": "2021-03-05T21:34:18.333+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Bosco is answering HeccinTech's Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**   what was that one thing that difined you that really brought ur resume out for facebook",
+          "color": "#FF00FF",
+          "footer": {
+            "text": "Asked by HeccinTech",
+            "iconUrl": "https://cdn.discordapp.com/avatars/668331059724943380/a_f9118d2b6ba38cbfeeb02164fdbd9c56.gif"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "⭐",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 1
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817510362034995200",
+      "type": "Default",
+      "timestamp": "2021-03-05T21:34:18.917+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "**Bosco:** Not too sure, a recruiter actually reached out to me from LinkedIn thinking I was still a full-time Software Eng. but I had recently went back to school.  She wanted to set-up a full-time loop and I got it switched to an internship loop.  I am not sure what got her to take an interest in me but I would guess the full-time work experience was interesting enough!",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "671955714628911106",
+            "name": "dv_pikaCute",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/671955714628911106.gif"
+          },
+          "count": 4
+        },
+        {
+          "emoji": {
+            "id": "594643029994897408",
+            "name": "kek",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/594643029994897408.png"
+          },
+          "count": 2
+        },
+        {
+          "emoji": {
+            "id": "350426514262720514",
+            "name": "blaze",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/350426514262720514.png"
+          },
+          "count": 1
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817510704524296203",
+      "type": "Default",
+      "timestamp": "2021-03-05T21:35:40.573+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Bosco is answering Ayresia's Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**  How do you stay so motivated in projects?",
+          "color": "#FF00FF",
+          "footer": {
+            "text": "Asked by Ayresia",
+            "iconUrl": "https://cdn.discordapp.com/avatars/301485597925703683/2f52c39ac9eab85fa8db3fc0f90347d5.png"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "⭐",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 1
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817510707368034326",
+      "type": "Default",
+      "timestamp": "2021-03-05T21:35:41.251+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "**Bosco:** Short answer: I don't.\n\nLong answer: Motivation for me is super fleeting, sometimes I will want nothing more than to put my headphones on and grind on side projects, other times I completely let them sit there.  I just know that it's all iterative and I don't beat myself up that much, I already work full-time there is room in the day for non-programming things too \uD83D\uDE42",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "416014176742539274",
+            "name": "pats",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/416014176742539274.gif"
+          },
+          "count": 7
+        },
+        {
+          "emoji": {
+            "id": "585532628611104788",
+            "name": "worksonmymachine",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/585532628611104788.png"
+          },
+          "count": 3
+        },
+        {
+          "emoji": {
+            "id": "488809719964762122",
+            "name": "zoop",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/488809719964762122.png"
+          },
+          "count": 3
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDC4D",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f44d.png"
+          },
+          "count": 2
+        },
+        {
+          "emoji": {
+            "id": "350426514262720514",
+            "name": "blaze",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/350426514262720514.png"
+          },
+          "count": 1
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817511162803126312",
+      "type": "Default",
+      "timestamp": "2021-03-05T21:37:29.835+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Bosco is answering Kakos's Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**  Is it worth working at a big company? such as Facebook? Aren't the employees overworked or kicked out easily due to the high demand people wanting to get into these companies?",
+          "color": "#FF00FF",
+          "footer": {
+            "text": "Asked by Kakos",
+            "iconUrl": "https://cdn.discordapp.com/avatars/285043897803997184/90dd888dc36a96081d4ec508c0dd1943.png"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "⭐",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 1
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817511164949823508",
+      "type": "Default",
+      "timestamp": "2021-03-05T21:37:30.347+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "**Bosco:** They don't want to kick you out, that's bad for both you ( employee) and them ( employer ).  I think it's worth it to me, but it depends on what you value and what you want out of an employer.  I wanted good compensation, and to work on large / interesting problems with smart people.  FB helped me tick all the boxes and I definitely don't feel like I'm about to be fired ... just cause haha FWIW I have better WLB here than at my first company ( small start-up )",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDC4D",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f44d.png"
+          },
+          "count": 5
+        },
+        {
+          "emoji": {
+            "id": "581567621359599616",
+            "name": "pogslide",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/581567621359599616.gif"
+          },
+          "count": 2
+        },
+        {
+          "emoji": {
+            "id": "642125584444686356",
+            "name": "var",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/642125584444686356.png"
+          },
+          "count": 1
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817513148872917053",
+      "type": "Default",
+      "timestamp": "2021-03-05T21:45:23.351+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Bosco is answering Elliott's Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**  What set of challenges led Facebook to decide to build an internal continuous integration and delivery platform?",
+          "color": "#FF00FF",
+          "footer": {
+            "text": "Asked by Elliott",
+            "iconUrl": "https://cdn.discordapp.com/avatars/335628039302021121/a_30232e21b6efa0e86b0b107b56f0af71.gif"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "⭐",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 3
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817513151208620042",
+      "type": "Default",
+      "timestamp": "2021-03-05T21:45:23.908+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "**Bosco:** I would say we have custom everything else, so to get the most value out of all our infra, why not custom push.  There is the scale challenge, but assuming something like Jenkins could still work at this level of deployment ( and I have no idea if it could ) we also integrate throughout all the other infrastructure non-custom tools would either not know about, or have to write and maintain a ton of plugins to teach it.  Things like our code review tool, pushing through our container management system ( think kubernetes ) using our custom source control with our custom file system and all these pieces it just becomes a way to optimize for getting the most value out of all of our tools.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDCBB",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f4bb.png"
+          },
+          "count": 2
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDC40",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f440.png"
+          },
+          "count": 2
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDC4C",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f44c.png"
+          },
+          "count": 1
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817513596627583008",
+      "type": "Default",
+      "timestamp": "2021-03-05T21:47:10.104+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Bosco is answering Xetera's Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**  Since you mentioned switching between many languages, how competent do you feel like you are with the languages you use at work? Enough to get by with overall programming knowledge or do you often need to know about the internals of most of the tools you work with?",
+          "color": "#FF00FF",
+          "footer": {
+            "text": "Asked by Xetera",
+            "iconUrl": "https://cdn.discordapp.com/avatars/140862798832861184/a_cb890c77c829874d9155ba545ad41285.gif"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "⭐",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 2
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817513599241158766",
+      "type": "Default",
+      "timestamp": "2021-03-05T21:47:10.727+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "**Bosco:** I guess it would depend on the language, erlang I basically grep around for similar examples and copy paste.  I barely write code in this, but sometimes have to.  I pretty much have no clue what's going on.  Lol.  Everything else I am more or less comfortable enough.  With C++ I make sure to get a really solid review because I'm basically forced to keep track of what Rust would do for me, and if there's one thing my brain is not, it's a borrow checker.  I would say we have a great internal community about helping people learn our tools, languages, and all that so you're probably always going to be able to get help with your stuff",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDC4D",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f44d.png"
+          },
+          "count": 4
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817514175383076904",
+      "type": "Default",
+      "timestamp": "2021-03-05T21:49:28.09+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Bosco is answering TrippTrapp84's Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**  What would you say has been the more valuable skill in your field, having the knowledge to do some things right in one try or the ability to learn to do most things, after a few failures.",
+          "color": "#FF00FF",
+          "footer": {
+            "text": "Asked by TrippTrapp84",
+            "iconUrl": "https://cdn.discordapp.com/avatars/437438720614858783/398d01c9cc29312f78bb9cd1bdb69ac0.png"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "⭐",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 1
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817514177353744474",
+      "type": "Default",
+      "timestamp": "2021-03-05T21:49:28.56+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "**Bosco:** I definitely think if someone says they are able to do things right in one try you should be wary, ha.  But I think one thing I do pretty well is ride the line of building things to be extensible in the future without getting swept up by YAGNI.  Meaning I toe the line of over-engineering so in a month you can do all this crazy flexible stuff and whatever you want is already supported versus writing it with one exact use-case in mind end-to-end and a new idea or feature needs a rewrite ( these are obviously two extremes ).  I've always felt pretty comfortable and proud of my ability to toe that line and be able to move reasonably quick while leaving the door open for the future improvements!",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDC4D",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f44d.png"
+          },
+          "count": 4
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817514311337115690",
+      "type": "Default",
+      "timestamp": "2021-03-05T21:50:00.504+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Bosco is answering struggle's Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**  What was the interview process like at facebook?",
+          "color": "#FF00FF",
+          "footer": {
+            "text": "Asked by struggle",
+            "iconUrl": "https://cdn.discordapp.com/avatars/268917443362160641/1ec6bebabdb365fbf3ee3dd734ffedd7.png"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "⭐",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 1
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817514313736257536",
+      "type": "Default",
+      "timestamp": "2021-03-05T21:50:01.076+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "**Bosco:** It was for internships, so two 45 minute phone calls.  The entire process took a week end to end.  From initial reach-out to signed offer it was Monday -> Monday.  Pretty fast.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDD51",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f551.png"
+          },
+          "count": 5
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817514735099576330",
+      "type": "Default",
+      "timestamp": "2021-03-05T21:51:41.537+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Bosco is answering oof2win2's Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**  WHat's the difference between working at smaller and larger companies?",
+          "color": "#FF00FF",
+          "footer": {
+            "text": "Asked by oof2win2",
+            "iconUrl": "https://cdn.discordapp.com/avatars/429696038266208258/40c31a8165a6c075866e96f37a405683.png"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "⭐",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 1
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817514737167892530",
+      "type": "Default",
+      "timestamp": "2021-03-05T21:51:42.03+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "**Bosco:** Probably too many to write, but in a larger company you need to align on a superset of features and goals from many different areas of the company because you don't want every team to build X.  At a small company, the entire system was small enough that I was able to have it all in my head at one time as context.  You learn what some people are working on and you're like \"oh cool didn't know we did that\" or something, but at the small company I knew every tool, every line of code, every service, etc.  You kinda have to accept that you don't know a large amount of what's going on when you're at a bigger place",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "817515070518853653",
+      "type": "Default",
+      "timestamp": "2021-03-05T21:53:01.507+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Bosco is answering French Noodles's Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**  what was your first coding language",
+          "color": "#FF00FF",
+          "footer": {
+            "text": "Asked by French Noodles",
+            "iconUrl": "https://cdn.discordapp.com/avatars/531492597319860226/f4126265392345d3c2c63c16d78fa28f.png"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "⭐",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 1
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817515072695566338",
+      "type": "Default",
+      "timestamp": "2021-03-05T21:53:02.026+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "**Bosco:** I learned Java from Bucky!  TheNewBoston is the real MVP... although can't say I recommend his resources anymore.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "506194413698154497",
+            "name": "poggg",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/506194413698154497.gif"
+          },
+          "count": 5
+        },
+        {
+          "emoji": {
+            "id": "570799391980650511",
+            "name": "sadpats",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/570799391980650511.gif"
+          },
+          "count": 4
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDE14",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f614.png"
+          },
+          "count": 2
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDDF9",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f1f9.png"
+          },
+          "count": 3
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDDFA",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f1fa.png"
+          },
+          "count": 3
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDDF3",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f1f3.png"
+          },
+          "count": 3
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDDE6",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f1e6.png"
+          },
+          "count": 3
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDC1F",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f41f.png"
+          },
+          "count": 2
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817515418629046342",
+      "type": "Default",
+      "timestamp": "2021-03-05T21:54:24.503+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Bosco is answering HeccinTech's Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**  do you think github is important or would u rather have people have a developer site to display there resume and there capabilities",
+          "color": "#FF00FF",
+          "footer": {
+            "text": "Asked by HeccinTech",
+            "iconUrl": "https://cdn.discordapp.com/avatars/668331059724943380/a_f9118d2b6ba38cbfeeb02164fdbd9c56.gif"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "⭐",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 1
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817515420985720872",
+      "type": "Default",
+      "timestamp": "2021-03-05T21:54:25.065+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "**Bosco:** I think what's important is entirely up to you.  I've never really found much value in a portfolio, but I like working on side projects.  I don't think there is any silver bullet like have X and you'll get hired, it's really about finding out what will make you stand out as an applicant.  If a solid GitHub does that, go for it.  If a super slick dev site showcases that, all the better.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "817515932276490250",
+      "type": "Default",
+      "timestamp": "2021-03-05T21:56:26.966+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Bosco is answering Eyepatch's Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**  What steps did you take while learning rust and what first steps would you advice a beginner who has experience in programming but new to rust?",
+          "color": "#FF00FF",
+          "footer": {
+            "text": "Asked by Eyepatch",
+            "iconUrl": "https://cdn.discordapp.com/avatars/282598733730807819/d955458dda4824f1939a016ca0a4f270.png"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "⭐",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 1
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817515934469980203",
+      "type": "Default",
+      "timestamp": "2021-03-05T21:56:27.489+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "**Bosco:** I read the Rust book ( skimmed really ) and worked with very smart people who have been using Rust since the beginning and are great teachers.  When I first started with the language we would do a couple meetings a week ramping me up on the language and teaching me.  I was also appreciative that they brought many things into Java terms as that was my most comfortable language.  Overall, it took about 4 weeks of complete fighting with the borrow checker to feel like I was able to make progress.  By week 6 I felt like I was able to do my work without too much hassle.  I'm still learning, but it's rare that I'm just sitting there completely stumped on it now, and if I am I can always ask for help!",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "488809719964762122",
+            "name": "zoop",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/488809719964762122.png"
+          },
+          "count": 1
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDDF8",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f1f8.png"
+          },
+          "count": 1
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDDF4",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f1f4.png"
+          },
+          "count": 1
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817516347772108841",
+      "type": "Default",
+      "timestamp": "2021-03-05T21:58:06.028+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Bosco is answering Specy's Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**  How is the enviroment like at facebook (or any big company)? how are you treated? what benefits do you have working there?",
+          "color": "#FF00FF",
+          "footer": {
+            "text": "Asked by Specy",
+            "iconUrl": "https://cdn.discordapp.com/avatars/112667686667898880/5dfbe8f9475bde1e8b27c64bcbda785b.png"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "⭐",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 1
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817516350175576084",
+      "type": "Default",
+      "timestamp": "2021-03-05T21:58:06.601+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "**Bosco:** Environment I would say is fast-paced especially when you assume a big company would naturally have to move slow.  We are all treated very well and there are definitely too many benefits to list, but my favorite is the food on-campus ( specifically the BBQ! ).  For a random benefit you may not see elsewhere, you can get your oil changed, gas filled up, and tires rotated ( plus a few other things ) on campus you just drop your car off.  Also they will do laundry for you as well!",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83E\uDD69",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f969.png"
+          },
+          "count": 5
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDE99",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f699.png"
+          },
+          "count": 6
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDC55",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f455.png"
+          },
+          "count": 8
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83E\uDD14",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f914.png"
+          },
+          "count": 1
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817517029757943841",
+      "type": "Default",
+      "timestamp": "2021-03-05T22:00:48.626+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Bosco is answering Elliott's Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**  If you could go back in time and give young Bosco a single piece of career advice, what would it be?",
+          "color": "#FF00FF",
+          "footer": {
+            "text": "Asked by Elliott",
+            "iconUrl": "https://cdn.discordapp.com/avatars/335628039302021121/a_30232e21b6efa0e86b0b107b56f0af71.gif"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "⭐",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 1
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817517031863615528",
+      "type": "Default",
+      "timestamp": "2021-03-05T22:00:49.128+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "**Bosco:** Please.  Stop.  Switching.  Languages.  Learning how to say \"hello\" in multiple languages doesn't make you any more proficient.  I was like oh I can write a loop in Java, now in Python, Ruby looks cool.  I see this trap all the time on TPH, elsewhere, offline, whatever the case may be.  If multiple languages interest you, I don't want to discourage anyone from experimenting, but continuously switching and never getting past that beginning stage is such a trap imo and definitely one I fell for.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDC4D",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f44d.png"
+          },
+          "count": 9
+        },
+        {
+          "emoji": {
+            "id": "647492810744004638",
+            "name": "trapped_in_vim",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/647492810744004638.png"
+          },
+          "count": 5
+        },
+        {
+          "emoji": {
+            "id": "790655214804795422",
+            "name": "500",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/790655214804795422.png"
+          },
+          "count": 4
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817517647536324688",
+      "type": "Default",
+      "timestamp": "2021-03-05T22:03:15.916+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Bosco is answering Gh0sticF0rm's Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**  Indeed and Facebook. Look at you go, Bosco. How does it feel to be part of such a big and evolving platform ? What keeps you motivated ? :BraveryHearts:",
+          "color": "#FF00FF",
+          "footer": {
+            "text": "Asked by Gh0sticF0rm",
+            "iconUrl": "https://cdn.discordapp.com/avatars/325879975058210818/f8261f48a0fea2c385b4659433d5ce4f.png"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "⭐",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 1
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817517649570955265",
+      "type": "Default",
+      "timestamp": "2021-03-05T22:03:16.401+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "**Bosco:** I definitely feel happy with everything I've done so far, but there's still a lot to do!  Doing a good job and making something people use, rely on, and love basically creates a feedback loop where I keep doing more and want to do more and it just rolls back into itself.  I definitely have my moments with no motivation, but overall I just like building things, and lucky for me it's a good career!",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "488809719964762122",
+            "name": "zoop",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/488809719964762122.png"
+          },
+          "count": 1
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817518210366177320",
+      "type": "Default",
+      "timestamp": "2021-03-05T22:05:30.105+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Bosco is answering Calcium's Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**  How important would you say is to contribute to open source?",
+          "color": "#FF00FF",
+          "footer": {
+            "text": "Asked by Calcium",
+            "iconUrl": "https://cdn.discordapp.com/avatars/456086527894618115/24ec5fbffd0778bd36cb98e95ec0920b.png"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "⭐",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 1
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817518212525588540",
+      "type": "Default",
+      "timestamp": "2021-03-05T22:05:30.62+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "**Bosco:** It's only important if it's important to you.  I personally find it highlights the social part of coding ( both good and bad ) and open-source has made some really awesome things.  The team I interned on was an open-sourced project and I found it really fun to be able to see my code publicly.  I would recommend taking a look and seeing if it interests you because I definitely have enjoyed it!",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDC4D",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f44d.png"
+          },
+          "count": 2
+        },
+        {
+          "emoji": {
+            "id": "589887048811544586",
+            "name": "cyperpunkkeanu",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/589887048811544586.png"
+          },
+          "count": 2
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817518441958342658",
+      "type": "Default",
+      "timestamp": "2021-03-05T22:06:25.321+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Bosco is answering Sam.'s Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**  what coding language are you most proficient in, and what is your favourite / most preferred?",
+          "color": "#FF00FF",
+          "footer": {
+            "text": "Asked by Sam.",
+            "iconUrl": "https://cdn.discordapp.com/avatars/810344394821337129/892534ac6b336817211767b80883f67f.png"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "⭐",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 1
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817518444106743819",
+      "type": "Default",
+      "timestamp": "2021-03-05T22:06:25.833+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "**Bosco:** I can get things done very fast in Java.  Lately Rust has been my favorite.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "762316415554158612",
+            "name": "dukedance",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/762316415554158612.gif"
+          },
+          "count": 8
+        },
+        {
+          "emoji": {
+            "id": "232722868583006209",
+            "name": "rust",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/232722868583006209.png"
+          },
+          "count": 7
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDDF7",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f1f7.png"
+          },
+          "count": 1
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDDFA",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f1fa.png"
+          },
+          "count": 1
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDDF8",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f1f8.png"
+          },
+          "count": 1
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDDF9",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f1f9.png"
+          },
+          "count": 1
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "☕",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2615.png"
+          },
+          "count": 1
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817519539137937468",
+      "type": "Default",
+      "timestamp": "2021-03-05T22:10:46.909+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Bosco is answering jotac0's Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**  When will facebook bring back the tool to convert PHP to C++? \uD83D\uDC7C",
+          "color": "#FF00FF",
+          "footer": {
+            "text": "Asked by jotac0",
+            "iconUrl": "https://cdn.discordapp.com/avatars/469599730507448320/76aa10831275aafeb5a45f304178ff23.png"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "⭐",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 1
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817519541290663976",
+      "type": "Default",
+      "timestamp": "2021-03-05T22:10:47.422+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "**Bosco:** I think the HHVM is doing plenty fine atm \uD83D\uDE09",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDC4D",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f44d.png"
+          },
+          "count": 1
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817520130321154058",
+      "type": "Default",
+      "timestamp": "2021-03-05T22:13:07.858+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Bosco is answering CoolShot's Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**  Would you say that Rust has successfully managed to be a language which is low level but still secure(r), and would you say it's going to be adopted more in bigger companies over other languages which traditionally filled the role it does?",
+          "color": "#FF00FF",
+          "footer": {
+            "text": "Asked by CoolShot",
+            "iconUrl": "https://cdn.discordapp.com/avatars/340193216739541024/54392c3402629e7cd8a9cbfdae1b27f7.png"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "⭐",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 1
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817520132439146536",
+      "type": "Default",
+      "timestamp": "2021-03-05T22:13:08.363+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "**Bosco:** For the first point I would in no way call Rust a low-level language, it's quite high-level.  I definitely think it's well on its way to gaining more adoption as these big companies start to financially back it.  I would love to see more rust opportunities all over as I think it's a great language.  I don't think you have to care about performance to get benefit out of Rust, but it's nice that if you do care about performance you're already in a language that can support you.  We use it for CRUD services, CLI tools, rpc services, etc.  It's great all around and general purpose!",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "579048711066353665",
+            "name": "YEEHAW",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/579048711066353665.png"
+          },
+          "count": 1
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817520535797891103",
+      "type": "Default",
+      "timestamp": "2021-03-05T22:14:44.531+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Bosco is answering cros's Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**  Transitioning from a startup/small company to an enormous entity, does the amount of work to do scale up or is there much less to do than before?",
+          "color": "#FF00FF",
+          "footer": {
+            "text": "Asked by cros",
+            "iconUrl": "https://cdn.discordapp.com/avatars/372552884866252802/a_da4cd64f65f2e1bf0013b03f65cfd004.gif"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "⭐",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 3
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817520538313949244",
+      "type": "Default",
+      "timestamp": "2021-03-05T22:14:45.131+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "**Bosco:** The amount of work to do appears to have scaled up at FB but that's only because we have our roadmap for the next few cycles.  It may change, but I can still loosely wonder what am I going to be working towards in 2022.  That just makes it feel like there's *so* much work.  At the start-up, there was less work to do, but everything was on fire, everything was high priority ( which really means nothing was ) and the amount of context switching made you inefficient, but this \"has to get done now\".  So ultimately I felt more overworked at the start-up because of that.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "817520789259550721",
+      "type": "Default",
+      "timestamp": "2021-03-05T22:15:44.961+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Bosco is answering TwiN's Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**  What was the biggest mistake you made at Facebook? (e.g. drop a table)",
+          "color": "#FF00FF",
+          "footer": {
+            "text": "Asked by TwiN",
+            "iconUrl": "https://cdn.discordapp.com/avatars/527956692898414624/69a3508c875e0cb89ea9e78d7cd6ccbf.png"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "⭐",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 2
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817520791691853834",
+      "type": "Default",
+      "timestamp": "2021-03-05T22:15:45.541+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "**Bosco:** during my internship I caused a SEV ( which is like a severe event has happened ) on the source control team and basically no one could commit for like an hour or two.  I'm still here tho!",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "594643029994897408",
+            "name": "kek",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/594643029994897408.png"
+          },
+          "count": 16
+        },
+        {
+          "emoji": {
+            "id": "726442056951529573",
+            "name": "PB_BAN",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/726442056951529573.gif"
+          },
+          "count": 8
+        },
+        {
+          "emoji": {
+            "id": "764519047181238272",
+            "name": "PB_crossover_kek",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/764519047181238272.png"
+          },
+          "count": 6
+        },
+        {
+          "emoji": {
+            "id": "593774451250823188",
+            "name": "69",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/593774451250823188.png"
+          },
+          "count": 5
+        },
+        {
+          "emoji": {
+            "id": "642125584444686356",
+            "name": "var",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/642125584444686356.png"
+          },
+          "count": 3
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817521336754634763",
+      "type": "Default",
+      "timestamp": "2021-03-05T22:17:55.494+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Bosco is answering Kibb's Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**  What would you change about modern recruitment practices?",
+          "color": "#FF00FF",
+          "footer": {
+            "text": "Asked by Kibb",
+            "iconUrl": "https://cdn.discordapp.com/avatars/163403280926375936/a_0e6c6989352658e0ec85ae0b6cd80a3c.gif"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "⭐",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 1
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817521339095187487",
+      "type": "Default",
+      "timestamp": "2021-03-05T22:17:56.052+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "**Bosco:** Assuming I'm omnipotent, I would get rid of any low-cost filter companies use where before you even talk to someone they give you like a 3 hour take-home test and then they'll get back to you if they like what they see.  That's wild.\n\nI don't know how to fix interviewing, because if I did I would probably own a company solving this issue, but overall I think there is too much room for bias ( implicit and explicit ) and too much focus on getting the right answer where right answer is the answer the interviewer was thinking of, not the totally reasonable other answer you came up with.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDC4D",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f44d.png"
+          },
+          "count": 4
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDDE6",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f1e6.png"
+          },
+          "count": 3
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDDFC",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f1fc.png"
+          },
+          "count": 3
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDDEA",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f1ea.png"
+          },
+          "count": 3
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDDF8",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f1f8.png"
+          },
+          "count": 3
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDDFA",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f1fa.png"
+          },
+          "count": 3
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDDF2",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f1f2.png"
+          },
+          "count": 3
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817521524562853908",
+      "type": "Default",
+      "timestamp": "2021-03-05T22:18:40.271+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Bosco is answering HeccinTech's Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**  how many of the facebook developed frameworks do you actually work with like hacks react ect",
+          "color": "#FF00FF",
+          "footer": {
+            "text": "Asked by HeccinTech",
+            "iconUrl": "https://cdn.discordapp.com/avatars/668331059724943380/a_f9118d2b6ba38cbfeeb02164fdbd9c56.gif"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "⭐",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 1
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817521526521856001",
+      "type": "Default",
+      "timestamp": "2021-03-05T22:18:40.738+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "**Bosco:** If you mean external frameworks then pretty much none of those.  I write mostly service code running in some container somewhere.  I do use Hack from time to time though.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "817522177338638356",
+      "type": "Default",
+      "timestamp": "2021-03-05T22:21:15.905+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Bosco is answering Toby Larone's Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**  If you were to start your own development company, what one thing would you take from the way facebook runs into your company, and what one thing would you absolutely bring into your company?",
+          "color": "#FF00FF",
+          "footer": {
+            "text": "Asked by Toby Larone",
+            "iconUrl": "https://cdn.discordapp.com/avatars/227810440560902144/0a0bde4a9e0e0550a3c72d68a8cc818c.png"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "⭐",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 1
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817522179503554600",
+      "type": "Default",
+      "timestamp": "2021-03-05T22:21:16.421+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "**Bosco:** The thing I would take from Facebook is somehow map engineers to work on the problems they care about.  Facebook does this through the bootcamp program.  I think if you hire a bunch of smart people, and then let them work on things they think are interesting / care about you start getting a ton of output.  No one is going to be a 10x engineer when they literally hate logging on every morning and working on their project.\n\nThe thing I would set-up early is every team protects their internal data, structures, and otherwise with public APIs other teams must go through to access them as I think historically that has been a pain point on my team.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDC4D",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f44d.png"
+          },
+          "count": 4
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDC4C",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f44c.png"
+          },
+          "count": 4
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817522767653371934",
+      "type": "Default",
+      "timestamp": "2021-03-05T22:23:36.647+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Bosco is answering Kibb's Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**  Do you think remote only working can be as good or better than in office work?",
+          "color": "#FF00FF",
+          "footer": {
+            "text": "Asked by Kibb",
+            "iconUrl": "https://cdn.discordapp.com/avatars/163403280926375936/a_0e6c6989352658e0ec85ae0b6cd80a3c.gif"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "⭐",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 1
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817522769511186453",
+      "type": "Default",
+      "timestamp": "2021-03-05T22:23:37.09+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "**Bosco:** For some people I think so yes.  I've seen some people excel during remote and others plummet.  I think the thing to be careful is allowing a hybrid team could negatively impact those that enjoy in-office.  Say you have a team of 8 that is close-knit and you say \"choose which style of work that affects you the best\" and 4 of those teammates go remote.  That isn't only affecting them, but the other teammates who get fulfilled and happier in a close-knit in person team.  I think it's tricky to quantify, but I think in a team that is able and willing to support remote work and an engineer who enjoys remote work can definitely be just as successful or more than they might be in-office.  There's just plenty of variables to look for.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "817523064308105236",
+      "type": "Default",
+      "timestamp": "2021-03-05T22:24:47.375+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Bosco is answering Kibb's Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**  If you were to build a company using only staff hired from TPH, who would you hire?",
+          "color": "#FF00FF",
+          "footer": {
+            "text": "Asked by Kibb",
+            "iconUrl": "https://cdn.discordapp.com/avatars/163403280926375936/a_0e6c6989352658e0ec85ae0b6cd80a3c.gif"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "⭐",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 1
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817523066183090188",
+      "type": "Default",
+      "timestamp": "2021-03-05T22:24:47.822+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "**Bosco:** Lana to tell me what I'm doing wrong, Toby to tell me what to build - Unstoppable trio",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDE04",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f604.png"
+          },
+          "count": 4
+        },
+        {
+          "emoji": {
+            "id": "582081529816285205",
+            "name": "rooaww",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/582081529816285205.png"
+          },
+          "count": 2
+        },
+        {
+          "emoji": {
+            "id": "350426514262720514",
+            "name": null,
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/350426514262720514.png"
+          },
+          "count": 2
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817523188236812379",
+      "type": "Default",
+      "timestamp": "2021-03-05T22:25:16.922+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Bosco is answering Dreameh's Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**  Cats or dogs?",
+          "color": "#FF00FF",
+          "footer": {
+            "text": "Asked by Dreameh",
+            "iconUrl": "https://cdn.discordapp.com/avatars/203297705139765248/acf86b1ee3740991a4e712d422dd37ff.png"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "⭐",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 1
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817523190293200917",
+      "type": "Default",
+      "timestamp": "2021-03-05T22:25:17.412+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "**Bosco:** Dogs!",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDC36",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f436.png"
+          },
+          "count": 6
+        },
+        {
+          "emoji": {
+            "id": "711238726365216798",
+            "name": "dogthink",
+            "isAnimated": true,
+            "imageUrl": "https://cdn.discordapp.com/emojis/711238726365216798.gif"
+          },
+          "count": 6
+        },
+        {
+          "emoji": {
+            "id": "647492810744004638",
+            "name": "trapped_in_vim",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/647492810744004638.png"
+          },
+          "count": 5
+        },
+        {
+          "emoji": {
+            "id": "488809719964762122",
+            "name": "zoop",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/488809719964762122.png"
+          },
+          "count": 2
+        },
+        {
+          "emoji": {
+            "id": "621855218509807616",
+            "name": "sadcat",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/621855218509807616.png"
+          },
+          "count": 4
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817523501057179700",
+      "type": "Default",
+      "timestamp": "2021-03-05T22:26:31.504+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Bosco is answering Cloudfox's Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**  What are the advantages of having an in-house continuous deployment platform vs just using a service like CircleCI?",
+          "color": "#FF00FF",
+          "footer": {
+            "text": "Asked by Cloudfox",
+            "iconUrl": "https://cdn.discordapp.com/avatars/295014158771159040/8964cdba65b492765342e57334b4c5cc.png"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "⭐",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 1
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817523504714612828",
+      "type": "Default",
+      "timestamp": "2021-03-05T22:26:32.376+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "**Bosco:** You get more custom integrations with our infrastructure that doesn't exist anywhere else, you get to make more optimizations around how your push works and get the entire company to standardize on a way of doing things.  I have no idea what scale CircleCI can manage either so maybe that too.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "817523889130438707",
+      "type": "Default",
+      "timestamp": "2021-03-05T22:28:04.028+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Bosco is answering HeccinTech's Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**  what are the main struggles you truely had when it comes to start ups and what causes alot of them to fail",
+          "color": "#FF00FF",
+          "footer": {
+            "text": "Asked by HeccinTech",
+            "iconUrl": "https://cdn.discordapp.com/avatars/668331059724943380/a_f9118d2b6ba38cbfeeb02164fdbd9c56.gif"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "⭐",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 1
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817523891416727611",
+      "type": "Default",
+      "timestamp": "2021-03-05T22:28:04.573+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "**Bosco:** Some struggles included: prioritization and context switching, no clear roadmap as every other week a pivot occurred, listening to your boss sell your work as magic and machine learning when you haven't done anything of the sort.  Lol",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDF5D",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f35d.png"
+          },
+          "count": 3
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDDF2",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f1f2.png"
+          },
+          "count": 1
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDDF1",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f1f1.png"
+          },
+          "count": 1
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817524087030415401",
+      "type": "Default",
+      "timestamp": "2021-03-05T22:28:51.211+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Bosco is answering Calcium's Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**  Have you ever been burnt out in your time? If yes, how did you manage to recove. I imagine, being in that busy job, you dont get much time to recover",
+          "color": "#FF00FF",
+          "footer": {
+            "text": "Asked by Calcium",
+            "iconUrl": "https://cdn.discordapp.com/avatars/456086527894618115/24ec5fbffd0778bd36cb98e95ec0920b.png"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "⭐",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 1
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817524089190219836",
+      "type": "Default",
+      "timestamp": "2021-03-05T22:28:51.726+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "**Bosco:** Haven't burned out yet, but my motivation to code on the side comes and goes.  I just ride the wave.  If I ever were to feel completely burnt out, I would take a hiatus from tech and come back refreshed or maybe with a completely new plan.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "585532628611104788",
+            "name": "worksonmymachine",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/585532628611104788.png"
+          },
+          "count": 1
+        },
+        {
+          "emoji": {
+            "id": "581918948803477514",
+            "name": "yes",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/581918948803477514.png"
+          },
+          "count": 1
+        },
+        {
+          "emoji": {
+            "id": "637510286022017025",
+            "name": "peepoheart",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/637510286022017025.png"
+          },
+          "count": 1
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817524550367313950",
+      "type": "Default",
+      "timestamp": "2021-03-05T22:30:41.679+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Bosco is answering cros's Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**  How does facebook deal with co-operation between different teams. As the scale is far bigger than most tech-companies, does facebook make changes to standard practices such as agile and scrum that fit it's needs?",
+          "color": "#FF00FF",
+          "footer": {
+            "text": "Asked by cros",
+            "iconUrl": "https://cdn.discordapp.com/avatars/372552884866252802/a_da4cd64f65f2e1bf0013b03f65cfd004.gif"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "⭐",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 1
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817524553072115744",
+      "type": "Default",
+      "timestamp": "2021-03-05T22:30:42.324+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "**Bosco:** engineers drive cross-functional work ( XFN ) but managers, directors, PMs otherwise may set the stage so to speak.  If a team isn't cooperating your manager is essentially your bat, but luckily everyone has been great to work with for me.  It's up to the teams how they would like to manage, we don't do anything even close to scrum and I have no idea what process name I would give to us.  We just kinda work on what we feel is important and deliver things that bring us closer to our goals.  It's abstract, and it feels like that in practice as well.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "817524828210724955",
+      "type": "Default",
+      "timestamp": "2021-03-05T22:31:47.922+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Bosco is answering Calcium's Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**  If you were to switch to freelancing for whatever reason, how much do you think the tag of <Ex-facebook engineer> jelp?",
+          "color": "#FF00FF",
+          "footer": {
+            "text": "Asked by Calcium",
+            "iconUrl": "https://cdn.discordapp.com/avatars/456086527894618115/24ec5fbffd0778bd36cb98e95ec0920b.png"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "⭐",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 1
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817524830545903667",
+      "type": "Default",
+      "timestamp": "2021-03-05T22:31:48.479+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "**Bosco:** It would probably help at least somewhat, I think people view regard FB engineers competence at least somewhat I hope.  That being said I can't just slap that tag in front of my name and expect clients, it would be a hustle for sure",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "817525099779457044",
+      "type": "Default",
+      "timestamp": "2021-03-05T22:32:52.669+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Bosco is answering Kokoden's Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**  What do you like to do outside of programming? \uD83D\uDE04",
+          "color": "#FF00FF",
+          "footer": {
+            "text": "Asked by Kokoden",
+            "iconUrl": "https://cdn.discordapp.com/avatars/199340460638994432/3e67239bdc3c3d5943468bf2674e4b66.png"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "⭐",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 2
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817525102417281075",
+      "type": "Default",
+      "timestamp": "2021-03-05T22:32:53.298+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "**Bosco:** I really like cars ( currently own 4 oops ), I like to snowboard, hang out with friends + girlfriend, drink, and play video games! ( smite, valorant, dead by daylight, rocket league, etc. )",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDE99",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f699.png"
+          },
+          "count": 4
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDFC2",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f3c2.png"
+          },
+          "count": 4
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDFAE",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f3ae.png"
+          },
+          "count": 4
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDF7B",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f37b.png"
+          },
+          "count": 4
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817525409868021760",
+      "type": "Default",
+      "timestamp": "2021-03-05T22:34:06.6+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Bosco is answering Toby Larone's Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**  Do you listen to music while you program? If so what is your jam?",
+          "color": "#FF00FF",
+          "footer": {
+            "text": "Asked by Toby Larone",
+            "iconUrl": "https://cdn.discordapp.com/avatars/227810440560902144/0a0bde4a9e0e0550a3c72d68a8cc818c.png"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "⭐",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 2
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDFB5",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f3b5.png"
+          },
+          "count": 4
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817525411658858526",
+      "type": "Default",
+      "timestamp": "2021-03-05T22:34:07.027+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "**Bosco:** wonderful question, I listen to pretty much anything.  A lot of times I will listen to lyrical rap or things with bass.  Lately I have been listening to this one repeat while working too https://open.spotify.com/track/5xQskDSiHQeoebxoprn3HL?si=ydi6fp7VTEmcZ9wDGJ-eOg",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "You're A Mean One, Mr. Grinch",
+          "url": "https://open.spotify.com/track/5xQskDSiHQeoebxoprn3HL?si=ydi6fp7VTEmcZ9wDGJ-eOg",
+          "timestamp": null,
+          "description": "Tyler, The Creator · Song · 2018",
+          "thumbnail": {
+            "url": "https://i.scdn.co/image/ab67616d0000b273940b54f90834834dfbc53da1",
+            "width": 640,
+            "height": 640
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "❤️",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2764.png"
+          },
+          "count": 6
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDFB5",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f3b5.png"
+          },
+          "count": 6
+        },
+        {
+          "emoji": {
+            "id": "481200596112637953",
+            "name": "yahuh",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/481200596112637953.png"
+          },
+          "count": 1
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817526012317007883",
+      "type": "Default",
+      "timestamp": "2021-03-05T22:36:30.235+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Bosco is answering Jew's Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**  Are there any good practices that folks usually forget while writing code?",
+          "color": "#FF00FF",
+          "footer": {
+            "text": "Asked by Jew",
+            "iconUrl": "https://cdn.discordapp.com/avatars/329310111418023936/2fbaaee19d2e6482585fa3c7e22de24e.png"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "⭐",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 1
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817526014301306890",
+      "type": "Default",
+      "timestamp": "2021-03-05T22:36:30.708+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "**Bosco:** For sure, and I probably forget them too.\n\nIn general I like: smaller commits, tests included with commits, update documentation.  My team is pretty on-top of all this kinda stuff and we keep moving forward really quickly",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDC4D",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f44d.png"
+          },
+          "count": 6
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDDF9",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f1f9.png"
+          },
+          "count": 3
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDDED",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f1ed.png"
+          },
+          "count": 3
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDDFD",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f1fd.png"
+          },
+          "count": 3
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817526470887997470",
+      "type": "Default",
+      "timestamp": "2021-03-05T22:38:19.567+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Bosco is answering cros's Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**  At facebook, is there something you miss about from your time working at a small company?",
+          "color": "#FF00FF",
+          "footer": {
+            "text": "Asked by cros",
+            "iconUrl": "https://cdn.discordapp.com/avatars/372552884866252802/a_da4cd64f65f2e1bf0013b03f65cfd004.gif"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "⭐",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 1
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817526473119629373",
+      "type": "Default",
+      "timestamp": "2021-03-05T22:38:20.099+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "**Bosco:** I liked wearing multiple hats.  One of my favorite memories from the start-up was sitting in the massive lobby of a company called Diageo waiting to do a pitch / sell them our product and I was also writing code and putting out one of the many fires.  I liked that everyday you really didn't know what you were going to do.  Maybe you would go sell, maybe you were fully ops for the day, maybe you did dba stuff, or wrote code, tracked down bugs, etc.  It really was a lot of fun",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDC40",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f440.png"
+          },
+          "count": 1
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817526802581815297",
+      "type": "Default",
+      "timestamp": "2021-03-05T22:39:38.649+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Bosco is answering silentscream4's Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**  What do you hope to achieve in life / your ultimate goal?",
+          "color": "#FF00FF",
+          "footer": {
+            "text": "Asked by silentscream4",
+            "iconUrl": "https://cdn.discordapp.com/avatars/809201283801284628/8196d0e622c87d5753a332f525089a62.png"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "⭐",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 1
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817526804993671188",
+      "type": "Default",
+      "timestamp": "2021-03-05T22:39:39.224+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "**Bosco:** I don't really have solid goals like things I want to checkoff.  I think as long as I'm working on something that improves people's day that is enough for me.  That pretty much fits in the domain anywhere with software so I can pretty much do anything and get that kind of feeling.  I think ultimately having my own business would be great.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDDE8",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f1e8.png"
+          },
+          "count": 4
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDDF4",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f1f4.png"
+          },
+          "count": 4
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "⭕",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b55.png"
+          },
+          "count": 4
+        },
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83C\uDDF1",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f1f1.png"
+          },
+          "count": 4
+        },
+        {
+          "emoji": {
+            "id": "488809719964762122",
+            "name": "zoop",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/488809719964762122.png"
+          },
+          "count": 4
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817526973261545504",
+      "type": "Default",
+      "timestamp": "2021-03-05T22:40:19.342+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Bosco is answering OverMighty's Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**  Do you ever write pseudo-code, draw API design sketches, etc, on paper, or on computer, or not at all?",
+          "color": "#FF00FF",
+          "footer": {
+            "text": "Asked by OverMighty",
+            "iconUrl": "https://cdn.discordapp.com/avatars/270987844657479680/7e8a8d5d35b478d530b92f2fb0f3dc4c.png"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "⭐",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 3
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817526975648235600",
+      "type": "Default",
+      "timestamp": "2021-03-05T22:40:19.911+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "**Bosco:** I have a whiteboard right next to me I sketch.  A lot of times I like to hack out answers in code as well for proof of concepts.  I really enjoy drawing as a way to figure out what the hell I'm even thinking about",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDC4D",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f44d.png"
+          },
+          "count": 5
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817527182720499743",
+      "type": "Default",
+      "timestamp": "2021-03-05T22:41:09.281+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Bosco is answering peter_chon's Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**  as a user, how often you use Facebook?",
+          "color": "#FF00FF",
+          "footer": {
+            "text": "Asked by peter_chon",
+            "iconUrl": "https://cdn.discordapp.com/avatars/555929370150174742/3fea948b1c3b8b5bc34fa7e42cf1a7d3.png"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "⭐",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 1
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817527184993681468",
+      "type": "Default",
+      "timestamp": "2021-03-05T22:41:09.823+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "**Bosco:** I passively use it to remember people's birthdays, I also talk to a few friends on messenger, and sometimes good deals on fb marketplace as opposed to craigslist ( for cars )",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "740386588248375371",
+            "name": "stonks",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/740386588248375371.png"
+          },
+          "count": 6
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817527398991134760",
+      "type": "Default",
+      "timestamp": "2021-03-05T22:42:00.844+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Bosco is answering DRS05's Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**  Do you prefer pineapple on pizza?",
+          "color": "#FF00FF",
+          "footer": {
+            "text": "Asked by DRS05",
+            "iconUrl": "https://cdn.discordapp.com/avatars/336559037279633411/fa18e8be264fedce8935c18c5167091e.png"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "⭐",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 3
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817527401046868035",
+      "type": "Default",
+      "timestamp": "2021-03-05T22:42:01.334+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "**Bosco:** I love pineapple on pizza, sometimes I gotta go with the chicken bacon ranch though.  Fun fact I worked at 2 pizzerias growign up and can make a solid pizza ( from ny ).  So me liking pineapple on pizza should have more weight given to its viability as a topping \uD83D\uDE09",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": "584749343995723777",
+            "name": "blobglare",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/584749343995723777.png"
+          },
+          "count": 14
+        },
+        {
+          "emoji": {
+            "id": "244261537697628160",
+            "name": "seemsgood",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/244261537697628160.png"
+          },
+          "count": 2
+        },
+        {
+          "emoji": {
+            "id": "768988901188567051",
+            "name": "sad",
+            "isAnimated": false,
+            "imageUrl": "https://cdn.discordapp.com/emojis/768988901188567051.png"
+          },
+          "count": 1
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817527686259015700",
+      "type": "Default",
+      "timestamp": "2021-03-05T22:43:09.334+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Bosco is answering Jew's Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**   Any ideas/speculation for the future of programming?",
+          "color": "#FF00FF",
+          "footer": {
+            "text": "Asked by Jew",
+            "iconUrl": "https://cdn.discordapp.com/avatars/329310111418023936/2fbaaee19d2e6482585fa3c7e22de24e.png"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "⭐",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 1
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817527687924023339",
+      "type": "Default",
+      "timestamp": "2021-03-05T22:43:09.731+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "**Bosco:** I have no idea what the destination looks like for programming, but I do know the journey will involve quite a few more iterations of reinventing the wheel.  The next best thing is always coming \uD83D\uDE09",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [],
+      "mentions": []
+    },
+    {
+      "id": "817528181002862632",
+      "type": "Default",
+      "timestamp": "2021-03-05T22:45:07.29+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Bosco is answering Muse's Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**  Do you struggle with imposter syndrome? Do you have any advice for those who do?",
+          "color": "#FF00FF",
+          "footer": {
+            "text": "Asked by Muse",
+            "iconUrl": "https://cdn.discordapp.com/avatars/372928681817145346/2a8914e420086803516909360b3c30d9.png"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "⭐",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 1
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817528182877192203",
+      "type": "Default",
+      "timestamp": "2021-03-05T22:45:07.737+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "**Bosco:** I think I do but minorly.  I get like a small feeling of it, but quickly silence it.  I do good work, people tell me I do good work, and that's really that.  I don't let performance at a job define my value as a person, and if I ever got fired I'm sure i could be successful elsewhere.  Overall I do feel for people who are affected very heavily by imposter syndrome.  I would offer advice, but I really don't have any other than mental care is just as important as physical care so check out options like therapy if it makes sense for you!",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDC4D",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f44d.png"
+          },
+          "count": 2
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817528411357970452",
+      "type": "Default",
+      "timestamp": "2021-03-05T22:46:02.211+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Bosco is answering madmike's Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**  Are people without a degree looked down upon in companies? Can you make it without a degree or is it too much of a hassle?",
+          "color": "#FF00FF",
+          "footer": {
+            "text": "Asked by madmike",
+            "iconUrl": "https://cdn.discordapp.com/avatars/198410655869435904/b9edd86abd47388021deff037dc5bc22.png"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "⭐",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 2
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817528413353934858",
+      "type": "Default",
+      "timestamp": "2021-03-05T22:46:02.687+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "**Bosco:** You can make it without a degree, but the path is much less defined.  I don't think they're looked down upon.  I know quite a few people without a degree that are way smarter than me at FB.  It's just that the degree is much more consistent path to get to this end, so it's recommended much more often.",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDC4D",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f44d.png"
+          },
+          "count": 18
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817528896396066837",
+      "type": "Default",
+      "timestamp": "2021-03-05T22:47:57.853+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [
+        {
+          "title": "Bosco is answering OverMighty's Question:",
+          "url": null,
+          "timestamp": null,
+          "description": "**Question:**  How often is the need to make internal tools instead of using existing ones felt at Facebook? Is scalability the only reason?",
+          "color": "#FF00FF",
+          "footer": {
+            "text": "Asked by OverMighty",
+            "iconUrl": "https://cdn.discordapp.com/avatars/270987844657479680/7e8a8d5d35b478d530b92f2fb0f3dc4c.png"
+          },
+          "fields": []
+        }
+      ],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "⭐",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/2b50.png"
+          },
+          "count": 7
+        }
+      ],
+      "mentions": []
+    },
+    {
+      "id": "817528898564522005",
+      "type": "Default",
+      "timestamp": "2021-03-05T22:47:58.37+00:00",
+      "timestampEdited": null,
+      "callEndedTimestamp": null,
+      "isPinned": false,
+      "content": "**Bosco:** I mean there's probably a good amount of NIH syndrome going on.  One thing to think about is when FB was hitting these scale problems the gold standards may quite literally not have existed.  Like people find it weird we have our own system that's similar to Kubernetes but our version was being used in production before k8s even released.  So sometimes it's timing.  I think we are definitely good about using open source stuff where possible and trying to only rewrite it if we have concerns.  Also at least in my time since I've been here I've submitted fixes, and improvements upstream to open source libraries which is really neat to be able to help out and then everyone wins!",
+      "author": {
+        "id": "429275180309807134",
+        "name": "Nano",
+        "discriminator": "8992",
+        "isBot": true,
+        "avatarUrl": "https://cdn.discordapp.com/avatars/429275180309807134/dcff1a4bd27c602e1598b6a161ff564f.png"
+      },
+      "attachments": [],
+      "embeds": [],
+      "reactions": [
+        {
+          "emoji": {
+            "id": null,
+            "name": "\uD83D\uDC4D",
+            "isAnimated": false,
+            "imageUrl": "https://twemoji.maxcdn.com/2/72x72/1f44d.png"
+          },
+          "count": 10
+        }
+      ],
+      "mentions": []
+    }
+  ],
+  "messageCount": 100
+}
